@@ -67,16 +67,17 @@ for url in "${URL_ARRAY[@]}"; do
         echo "✅ Scan completed successfully"
         results=$(echo $status_response | jq '.results')
         
-        # Set output for GitHub Actions
-        echo "::set-output name=scan_results::$results"
-        
-        # You can process results further here
-        # For example, count violations
-        violation_count=$(echo $results | jq '.violations | length')
+        # Count violations (length of the results array)
+        violation_count=$(echo $results | jq '. | length')
         echo "Found $violation_count accessibility violations"
         
-        # Optional: Print detailed violations
-        echo $results | jq '.violations[] | {impact: .impact, description: .description}'
+        # Print detailed violations
+        echo "Detailed Violations:"
+        echo $results | jq -r '.[] | "Impact: \(.impact)\nRule: \(.id)\nDescription: \(.description)\n---"'
+        
+        # Optional: Group violations by impact
+        echo "Violations by Impact:"
+        echo $results | jq -r 'group_by(.impact) | .[] | "[\(.[0].impact)] Count: \(length)"'
     else
         echo "❌ Scan failed or timed out"
         echo "Final status: $status"
