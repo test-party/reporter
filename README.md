@@ -29,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Accessibility Scan
-        uses: your-username/accessibility-scanner@v1
+        uses: test-party/reporter@v1
         with:
-          api_token: ${{ secrets.ACCESSIBILITY_API_TOKEN }}
+          api_token: ${{ secrets.TESTPARTY_TOKEN }}
           urls: 'https://example.com,https://example.com/about'
 ```
 

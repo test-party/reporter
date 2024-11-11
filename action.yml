@@ -1,7 +1,7 @@
 name: 'TestParty: Reporter'
 description: 'Scan URLs for accessibility violations.'
 inputs:
-  api_token:
+  testparty_token:
     description: 'API token for authentication'
     required: true
   urls:
@@ -14,5 +14,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.api_token }}
+    - ${{ inputs.testparty_token }}
     - ${{ inputs.urls }}

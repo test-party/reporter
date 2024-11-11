@@ -1,4 +1,4 @@
-name: Test Reporter
+name: Test the TestParty Reporter
 on:
   schedule:
     # This example runs every 6 hours
