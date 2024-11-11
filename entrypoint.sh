@@ -54,7 +54,7 @@ for url in "${URL_ARRAY[@]}"; do
         
         # Check status
         status_response=$(check_job_status "$task_id" "$API_TOKEN")
-        status=$(echo $status_response | jq -r '.status')
+        status=$(echo $status_response | jq -r '.state')
         message=$(echo $status_response | jq -r '.message')
         
         echo "🔄 Status: $status - $message"
