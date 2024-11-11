@@ -8,7 +8,7 @@ check_job_status() {
     local task_id="$1"
     local api_token="$2"
     
-    curl -s -H "Authorization: Bearer $api_token" \
+    curl -s \
          -H "Content-Type: application/json" \
          "https://beep-beep-67490882d6fc.herokuapp.com/v1/engine/axe/$task_id"
 }
