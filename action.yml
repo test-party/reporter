@@ -1,4 +1,4 @@
-name: 'Reporter'
+name: 'TestParty: Reporter'
 description: 'Scan URLs for accessibility violations.'
 inputs:
   api_token:
