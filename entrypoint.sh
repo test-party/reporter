@@ -50,7 +50,7 @@ for url in "${URL_ARRAY[@]}"; do
         fi
         
         # Wait between polls
-        sleep 10
+        sleep 5
         
         # Check status
         status_response=$(check_job_status "$task_id" "$API_TOKEN")
