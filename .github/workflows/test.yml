@@ -1,0 +1,18 @@
+name: Test Reporter
+on:
+  schedule:
+    # This example runs every 6 hours
+    - cron: '0 */6 * * *'
+  # Optionally keep workflow_dispatch to allow manual triggers
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Test URL Scanner
+        uses: ./
+        with:
+          api_token: ${{ secrets.API_TOKEN }}
+          urls: 'https://testparty.ai'

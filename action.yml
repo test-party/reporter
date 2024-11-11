@@ -1,0 +1,18 @@
+name: 'Reporter'
+description: 'Scan URLs for accessibility violations.'
+inputs:
+  api_token:
+    description: 'API token for authentication'
+    required: true
+  urls:
+    description: 'Comma-separated list of URLs to scan'
+    required: true
+branding:
+  icon: 'shield'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.api_token }}
+    - ${{ inputs.urls }}
