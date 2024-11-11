@@ -34,7 +34,7 @@ for url in "${URL_ARRAY[@]}"; do
         echo "❌ Failed to get task_id for $url"
         echo "Response: $response"
         continue
-    }
+    fi
     
     echo "✅ Scan initiated - Task ID: $task_id"
     
@@ -47,7 +47,7 @@ for url in "${URL_ARRAY[@]}"; do
         if [ $attempt -ge $max_attempts ]; then
             echo "❌ Timeout waiting for results"
             break
-        }
+        fi
         
         # Wait between polls
         sleep 10
