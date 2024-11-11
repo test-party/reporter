@@ -54,7 +54,7 @@ for url in "${URL_ARRAY[@]}"; do
         
         # Check status
         status_response=$(check_job_status "$task_id" "$API_TOKEN")
-        status=$(echo $status_response | jq -r '.state')
+        status=$(echo $status_response | jq -r '.status')
         message=$(echo $status_response | jq -r '.message')
         
         echo "🔄 Status: $status - $message"
@@ -63,7 +63,7 @@ for url in "${URL_ARRAY[@]}"; do
     done
     
     # Process final results
-    if [ "$status" == "SUCCESS" ]; then
+    if [ "$status" == "completed" ]; then
         echo "✅ Scan completed successfully"
         results=$(echo $status_response | jq '.results')
         
