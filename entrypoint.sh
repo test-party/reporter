@@ -43,7 +43,7 @@ for url in "${URL_ARRAY[@]}"; do
     max_attempts=30  # Maximum number of polling attempts
     attempt=0
     
-    while [ "$status" == "PENDING" ] || [ "$status" == "PROGRESS" ]; do
+    while [ "$status" != "completed" ] && [ "$status" != "failed" ]; do
         if [ $attempt -ge $max_attempts ]; then
             echo "❌ Timeout waiting for results"
             break
