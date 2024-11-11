@@ -23,11 +23,14 @@ URL_JSON_ARRAY=$(echo $URLS | sed 's/,/","/g' | sed 's/^/["/' | sed 's/$/"]/')
 # Prepare authentication JSON if credentials are provided
 AUTH_JSON=""
 if [ ! -z "$AUTH_EMAIL" ] && [ ! -z "$AUTH_PASSWORD" ]; then
-    AUTH_JSON="{\"auth\": {\"url\": \"$AUTH_URL\", \"email\": \"$AUTH_EMAIL\", \"password\": \"$AUTH_PASSWORD\"}}"
+    AUTH_JSON=", \"auth\": {\"url\": \"$AUTH_URL\", \"email\": \"$AUTH_EMAIL\", \"password\": \"$AUTH_PASSWORD\"}"
 fi
 
 # Prepare request body
-REQUEST_BODY="{\"urls\": $URL_JSON_ARRAY, {\"options\": $AUTH_JSON}}"
+REQUEST_BODY="{\"urls\": $URL_JSON_ARRAY, \"options\": {$AUTH_JSON}}"
+
+# Debug: Print the request body (optional)
+echo "Request Body: $REQUEST_BODY"
 
 echo "📋 Initiating scan for multiple URLs"
 
@@ -44,7 +47,7 @@ task_id=$(echo $response | jq -r '.task_id')
 if [ -z "$task_id" ] || [ "$task_id" == "null" ]; then
     echo "❌ Failed to get task_id for $url"
     echo "Response: $response"
-    continue
+    exit 1
 fi
 
 echo "✅ Scan initiated - Task ID: $task_id"
