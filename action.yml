@@ -7,6 +7,19 @@ inputs:
   urls:
     description: 'Comma-separated list of URLs to scan'
     required: true
+  auth_type:
+    description: 'Type of authentication to use'
+    required: false
+    default: 'email'
+  auth_url:
+    description: 'URL for basic authentication'
+    required: false
+  email:
+    description: 'Email for basic authentication'
+    required: false
+  password:
+    description: 'Password for basic authentication'
+    required: false
 branding:
   icon: 'shield'
   color: 'blue'
@@ -16,3 +29,7 @@ runs:
   args:
     - ${{ inputs.testparty_token }}
     - ${{ inputs.urls }}
+    - ${{ inputs.auth_type }}
+    - ${{ inputs.auth_url }}
+    - ${{ inputs.email }}
+    - ${{ inputs.password }}

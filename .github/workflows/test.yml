@@ -11,8 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Test URL Scanner
+      - name: Test Reporter
         uses: ./
         with:
           api_token: ${{ secrets.API_TOKEN }}
-          urls: 'https://testparty.ai'
+          urls: 'https://testparty.ai,https://testparty.ai/hub/dashboard/analytics'
+          auth_type: 'email'
+          auth_url: 'https://testparty.ai/login'
+          email: ${{ secrets.EMAIL }}
+          password: ${{ secrets.PASSWORD }}

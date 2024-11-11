@@ -2,6 +2,10 @@
 
 API_TOKEN="$1"
 URLS="$2"
+AUTH_TYPE="$3"
+AUTH_URL="$4"
+AUTH_EMAIL="$5"
+AUTH_PASSWORD="$6"
 
 # Function to check job status
 check_job_status() {
@@ -13,76 +17,103 @@ check_job_status() {
          "https://beep-beep-67490882d6fc.herokuapp.com/v1/engine/axe/$task_id"
 }
 
-# Convert comma-separated URLs to array
-IFS=',' read -ra URL_ARRAY <<< "$URLS"
+# Convert comma-separated URLs to JSON array
+URL_JSON_ARRAY=$(echo $URLS | sed 's/,/","/g' | sed 's/^/["/' | sed 's/$/"]/')
 
-# Process each URL
-for url in "${URL_ARRAY[@]}"; do
-    echo "📋 Initiating scan for URL: $url"
+# Prepare authentication JSON if credentials are provided
+AUTH_JSON=""
+if [ ! -z "$AUTH_EMAIL" ] && [ ! -z "$AUTH_PASSWORD" ]; then
+    AUTH_JSON="{\"auth\": {\"url\": \"$AUTH_URL\", \"email\": \"$AUTH_EMAIL\", \"password\": \"$AUTH_PASSWORD\"}}"
+fi
+
+# Prepare request body
+REQUEST_BODY="{\"urls\": $URL_JSON_ARRAY, {\"options\": $AUTH_JSON}}"
+
+echo "📋 Initiating scan for multiple URLs"
+
+# Submit the job
+response=$(curl -s -H "Authorization: Bearer $API_TOKEN" \
+                -H "Content-Type: application/json" \
+                -X POST \
+                -d "$REQUEST_BODY" \
+                "https://beep-beep-67490882d6fc.herokuapp.com/v1/engine/axe")
     
-    # Submit the job
-    response=$(curl -s -H "Authorization: Bearer $API_TOKEN" \
-                    -H "Content-Type: application/json" \
-                    -X POST \
-                    -d "{\"url\": \"$url\"}" \
-                    "https://beep-beep-67490882d6fc.herokuapp.com/v1/engine/axe")
-    
-    # Extract task_id from response
-    task_id=$(echo $response | jq -r '.task_id')
-    
-    if [ -z "$task_id" ] || [ "$task_id" == "null" ]; then
-        echo "❌ Failed to get task_id for $url"
-        echo "Response: $response"
-        continue
+# Extract task_id from response
+task_id=$(echo $response | jq -r '.task_id')
+
+if [ -z "$task_id" ] || [ "$task_id" == "null" ]; then
+    echo "❌ Failed to get task_id for $url"
+    echo "Response: $response"
+    continue
+fi
+
+echo "✅ Scan initiated - Task ID: $task_id"
+
+# Poll for results
+status="PENDING"
+max_attempts=30  # Maximum number of polling attempts
+attempt=0
+
+while [ "$status" != "completed" ] && [ "$status" != "failed" ]; do
+    if [ $attempt -ge $max_attempts ]; then
+        echo "❌ Timeout waiting for results"
+        break
     fi
     
-    echo "✅ Scan initiated - Task ID: $task_id"
+    # Wait between polls
+    sleep 5
     
-    # Poll for results
-    status="PENDING"
-    max_attempts=30  # Maximum number of polling attempts
-    attempt=0
+    # Check status
+    status_response=$(check_job_status "$task_id" "$API_TOKEN")
+    status=$(echo $status_response | jq -r '.state')
+    message=$(echo $status_response | jq -r '.message')
     
-    while [ "$status" != "completed" ] && [ "$status" != "failed" ]; do
-        if [ $attempt -ge $max_attempts ]; then
-            echo "❌ Timeout waiting for results"
-            break
-        fi
-        
-        # Wait between polls
-        sleep 5
-        
-        # Check status
-        status_response=$(check_job_status "$task_id" "$API_TOKEN")
-        status=$(echo $status_response | jq -r '.state')
-        message=$(echo $status_response | jq -r '.message')
-        
-        echo "🔄 Status: $status - $message"
-        
-        ((attempt++))
-    done
+    echo "🔄 Status: $status - $message"
     
-    # Process final results
-    if [ "$status" == "completed" ]; then
-        echo "✅ Scan completed successfully"
-        results=$(echo $status_response | jq '.results')
-        
-        # Count violations (length of the results array)
-        violation_count=$(echo $results | jq '. | length')
-        echo "Found $violation_count accessibility violations"
-        
-        # Print detailed violations
-        echo "Detailed Violations:"
-        echo $results | jq -r '.[] | "Impact: \(.impact)\nRule: \(.id)\nDescription: \(.description)\n---"'
-        
-        # Optional: Group violations by impact
-        echo "Violations by Impact:"
-        echo $results | jq -r 'group_by(.impact) | .[] | "[\(.[0].impact)] Count: \(length)"'
-    else
-        echo "❌ Scan failed or timed out"
-        echo "Final status: $status"
-        echo "Final message: $message"
-    fi
-    
-    echo "-----------------------------------"
+    ((attempt++))
 done
+
+# Process final results
+if [ "$status" == "completed" ]; then
+    echo "✅ Scan completed successfully"
+    results=$(echo $status_response | jq '.results')
+    
+    # Process each URL's violations
+    echo $results | jq -r '.violations[] | "
+🔍 URL: \(.url)
+Found \(.results | length) violations
+
+Detailed Violations:
+\(.results | .[] | "
+Impact: \(.impact)
+Rule: \(.id)
+Description: \(.description)
+Elements Affected: \(.nodes | length)
+---")"'
+
+    # Summary of violations by URL
+    echo "📊 Summary by URL:"
+    echo $results | jq -r '.violations[] | "\(.url): \(.results | length) violations"'
+
+    # Total violation count across all URLs
+    total_violations=$(echo $results | jq '[.violations[].results | length] | add')
+    echo "📈 Total violations across all URLs: $total_violations"
+
+    # Group violations by impact across all URLs
+    echo "🎯 Violations by Impact Level:"
+    echo $results | jq -r '
+        [.violations[].results[].impact] | 
+        group_by(.) | 
+        map({impact: .[0], count: length}) | 
+        .[] | 
+        "[\(.impact)] Count: \(.count)"
+    '
+
+    # Set output for GitHub Actions
+    echo "::set-output name=scan_results::$results"
+    echo "::set-output name=total_violations::$total_violations"
+else
+    echo "❌ Scan failed or timed out"
+    echo "Final status: $status"
+    echo "Final message: $message"
+fi
