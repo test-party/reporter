@@ -1,11 +1,12 @@
 #!/bin/bash
 
 API_TOKEN="$1"
-URLS="$2"
-AUTH_TYPE="$3"
-AUTH_URL="$4"
-AUTH_EMAIL="$5"
-AUTH_PASSWORD="$6"
+REPOSITORY_NAME="$2"
+URLS="$3"
+AUTH_TYPE="$4"
+AUTH_URL="$5"
+AUTH_EMAIL="$6"
+AUTH_PASSWORD="$7"
 
 # Function to check job status
 check_job_status() {
@@ -27,7 +28,7 @@ if [ ! -z "$AUTH_EMAIL" ] && [ ! -z "$AUTH_PASSWORD" ]; then
 fi
 
 # Prepare request body
-REQUEST_BODY="{\"urls\": $URL_JSON_ARRAY, \"options\": {$AUTH_JSON}}"
+REQUEST_BODY="{\"urls\": $URL_JSON_ARRAY, \"options\": {$AUTH_JSON}, \"process\": \"github_action\", \"project_name\":}"
 
 # Debug: Print the request body (optional)
 echo "Request Body: $REQUEST_BODY"
@@ -103,18 +104,14 @@ Elements Affected: \(.nodes | length)
     echo "📈 Total violations across all URLs: $total_violations"
 
     # Group violations by impact across all URLs
-    echo "🎯 Violations by Impact Level:"
-    echo $results | jq -r '
-        [.violations[].results[].impact] | 
-        group_by(.) | 
-        map({impact: .[0], count: length}) | 
-        .[] | 
-        "[\(.impact)] Count: \(.count)"
-    '
-
-    # Set output for GitHub Actions
-    echo "::set-output name=scan_results::$results"
-    echo "::set-output name=total_violations::$total_violations"
+    # echo "🎯 Violations by Impact Level:"
+    # echo $results | jq -r '
+    #     [.violations[].results[].impact] | 
+    #     group_by(.) | 
+    #     map({impact: .[0], count: length}) | 
+    #     .[] | 
+    #     "[\(.impact)] Count: \(.count)"
+    # '
 else
     echo "❌ Scan failed or timed out"
     echo "Final status: $status"

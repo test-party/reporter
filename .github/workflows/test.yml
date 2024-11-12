@@ -15,6 +15,7 @@ jobs:
         uses: ./
         with:
           api_token: ${{ secrets.API_TOKEN }}
+          repository_name: ${{ github.repository }}
           urls: 'https://testparty.ai,https://testparty.ai/hub/dashboard/analytics'
           auth_type: 'email'
           auth_url: 'https://testparty.ai/login'
