@@ -4,6 +4,9 @@ inputs:
   testparty_token:
     description: 'API token for authentication'
     required: true
+  repository_name:
+    description: 'Name of the repository'
+    required: true
   urls:
     description: 'Comma-separated list of URLs to scan'
     required: true
@@ -28,6 +31,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.testparty_token }}
+    - ${{ inputs.repository_name }}
     - ${{ inputs.urls }}
     - ${{ inputs.auth_type }}
     - ${{ inputs.auth_url }}
