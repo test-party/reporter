@@ -28,7 +28,7 @@ if [ ! -z "$AUTH_EMAIL" ] && [ ! -z "$AUTH_PASSWORD" ]; then
 fi
 
 # Prepare request body
-REQUEST_BODY="{\"urls\": $URL_JSON_ARRAY, \"options\": {$AUTH_JSON}, \"process\": \"github_action\", \"project_name\":}"
+REQUEST_BODY="{\"urls\": $URL_JSON_ARRAY, \"options\": {$AUTH_JSON}, \"process\": \"github_action\", \"project_name\": \"$REPOSITORY_NAME\"}"
 
 # Debug: Print the request body (optional)
 echo "Request Body: $REQUEST_BODY"
