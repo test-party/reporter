@@ -19,11 +19,22 @@ jobs:
           urls: |
             [
               {
-                "url": "https://testparty.ai",
-                "steps": []
+                  "url": "https://accessibility-test-company-with-medical-whwuzy.pasito.ai/r/HU6ZN8IotrMS",
+                  "steps": []
               },
               {
-                "url": "https://testparty.ai/hub/dashboard/analytics", 
-                "steps": []
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy/recommendations/new",
+                  "steps": [
+                      {
+                          "selector": "button",
+                          "text": "Agree and continue",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Skip",
+                          "scanAfterAction": true
+                      }
+                  ]
               }
             ]
