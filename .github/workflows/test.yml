@@ -16,8 +16,24 @@ jobs:
         with:
           api_token: ${{ secrets.API_TOKEN }}
           repository_name: ${{ github.repository }}
-          urls: 'https://testparty.ai,https://testparty.ai/hub/dashboard/analytics'
-          auth_type: 'email'
-          auth_url: 'https://testparty.ai/login'
-          email: ${{ secrets.EMAIL }}
-          password: ${{ secrets.PASSWORD }}
+          urls: |
+            [
+              {
+                "url": "https://testparty.ai",
+                "steps": [
+                  {
+                    "selector": "#login-button",
+                    "scanAfterAction": true
+                  }
+                ]
+              },
+              {
+                "url": "https://testparty.ai/hub/dashboard/analytics", 
+                "steps": [
+                  {
+                    "selector": ".dashboard-link",
+                    "scanAfterAction": false
+                  }
+                ]
+              }
+            ]

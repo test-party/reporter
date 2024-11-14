@@ -3,10 +3,6 @@
 API_TOKEN="$1"
 REPOSITORY_NAME="$2"
 URLS="$3"
-AUTH_TYPE="$4"
-AUTH_URL="$5"
-AUTH_EMAIL="$6"
-AUTH_PASSWORD="$7"
 
 # Function to check job status
 check_job_status() {
@@ -18,17 +14,8 @@ check_job_status() {
          "https://beep-beep-67490882d6fc.herokuapp.com/v1/engine/axe/$task_id"
 }
 
-# Convert comma-separated URLs to JSON array
-URL_JSON_ARRAY=$(echo $URLS | sed 's/,/","/g' | sed 's/^/["/' | sed 's/$/"]/')
-
-# Prepare authentication JSON if credentials are provided
-AUTH_JSON=""
-if [ ! -z "$AUTH_EMAIL" ] && [ ! -z "$AUTH_PASSWORD" ]; then
-    AUTH_JSON=", \"auth\": {\"url\": \"$AUTH_URL\", \"email\": \"$AUTH_EMAIL\", \"password\": \"$AUTH_PASSWORD\"}"
-fi
-
 # Prepare request body
-REQUEST_BODY="{\"urls\": $URL_JSON_ARRAY, \"options\": {$AUTH_JSON}, \"process\": \"github_action\", \"project_name\": \"$REPOSITORY_NAME\"}"
+REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project_name\": \"$REPOSITORY_NAME\"}"
 
 # Debug: Print the request body (optional)
 echo "Request Body: $REQUEST_BODY"
