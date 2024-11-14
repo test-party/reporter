@@ -84,13 +84,13 @@ Elements Affected: \(.nodes | length)
 
     # Summary of violations by URL
     echo "📊 Summary by URL:"
-    echo $results | jq -r '.violations[] | "\(.url): \(.results | length) violations"'
+    echo $results | jq -r '.violations[] | "\(.url): \(.results | map(.nodes | length) | add) violations"'
 
     report_uri=$(echo $results | jq -r '.reportUri')
     echo "📄 Report URL: $report_uri"
 
     # Total violation count across all URLs
-    total_violations=$(echo $results | jq '[.violations[].results | length] | add')
+    total_violations=$(echo $results | jq '[.violations[].results | map(.nodes | length) | add] | add')
     echo "📈 Total violations across all URLs: $total_violations"
 
     # Group violations by impact across all URLs
