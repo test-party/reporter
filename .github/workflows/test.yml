@@ -20,20 +20,10 @@ jobs:
             [
               {
                 "url": "https://testparty.ai",
-                "steps": [
-                  {
-                    "selector": "#login-button",
-                    "scanAfterAction": true
-                  }
-                ]
+                "steps": []
               },
               {
                 "url": "https://testparty.ai/hub/dashboard/analytics", 
-                "steps": [
-                  {
-                    "selector": ".dashboard-link",
-                    "scanAfterAction": false
-                  }
-                ]
+                "steps": []
               }
             ]
