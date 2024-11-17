@@ -2,7 +2,8 @@
 
 API_TOKEN="$1"
 REPOSITORY_NAME="$2"
-URLS="$3"
+REPOSITORY_ID="$3"
+URLS="$4"
 
 # Function to check job status
 check_job_status() {
@@ -15,7 +16,7 @@ check_job_status() {
 }
 
 # Prepare request body
-REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project_name\": \"$REPOSITORY_NAME\"}"
+REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project\": {\"name\": \"$REPOSITORY_NAME\", \"github_id\": $REPOSITORY_ID}}"
 
 # Debug: Print the request body (optional)
 echo "Request Body: $REQUEST_BODY"

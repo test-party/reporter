@@ -16,6 +16,7 @@ jobs:
         with:
           testparty_token: ${{ secrets.TESTPARTY_TOKEN }}
           repository_name: ${{ github.repository }}
+          repository_id: ${{ github.repository_id }}
           urls: |
             [
               {
