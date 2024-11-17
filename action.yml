@@ -7,6 +7,9 @@ inputs:
   repository_name:
     description: 'Name of the repository'
     required: true
+  repository_id:
+    description: 'ID of the repository'
+    required: true
   urls:
     description: 'JSON of urls with steps'
     required: true
@@ -19,4 +22,5 @@ runs:
   args:
     - ${{ inputs.testparty_token }}
     - ${{ inputs.repository_name }}
+    - ${{ inputs.repository_id }}
     - ${{ inputs.urls }}

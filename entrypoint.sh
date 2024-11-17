@@ -16,7 +16,7 @@ check_job_status() {
 }
 
 # Prepare request body
-REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project\": {\"name\": \"$REPOSITORY_NAME\", \"github_id\": \"$REPOSITORY_ID\"}}"
+REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project\": {\"name\": \"$REPOSITORY_NAME\", \"github_id\": $REPOSITORY_ID}}"
 
 # Debug: Print the request body (optional)
 echo "Request Body: $REQUEST_BODY"
