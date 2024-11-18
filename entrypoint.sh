@@ -43,7 +43,7 @@ echo "✅ Scan initiated - Task ID: $task_id"
 
 # Poll for results
 status="PENDING"
-max_attempts=30  # Maximum number of polling attempts
+max_attempts=720  # Maximum number of polling attempts is 1 hour (5 seconds * 720 attempts)
 attempt=0
 
 while [ "$status" != "completed" ] && [ "$status" != "failed" ]; do
