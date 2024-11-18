@@ -2,7 +2,7 @@ name: Test the TestParty Reporter
 on:
   schedule:
     # This example runs every 6 hours
-    - cron: '0 */6 * * *'
+    - cron: '0 0 * * *'
   # Optionally keep workflow_dispatch to allow manual triggers
   workflow_dispatch:
 
