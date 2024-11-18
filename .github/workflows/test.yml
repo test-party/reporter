@@ -35,6 +35,81 @@ jobs:
                           "selector": "button",
                           "text": "Skip",
                           "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Next",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Next",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Next",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Next",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Get recommendations",
+                          "scanAfterAction": true
+                      }
+                  ]
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy?tabMenu=recommendations&mode=explore",
+                  "steps": [
+                      {
+                          "selector": "span",
+                          "text": "Hospital Indemnity",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Accident",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Critical Illness",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "HSA",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Dental",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Retirement Account",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Life",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Short-term Disability",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Long-term Disability",
+                          "scanAfterAction": true
                       }
                   ]
               }
