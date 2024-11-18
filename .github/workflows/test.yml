@@ -112,5 +112,29 @@ jobs:
                           "scanAfterAction": true
                       }
                   ]
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy?tabMenu=benefits+package",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy?tabMenu=support",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy/support/know_7jsbogw661d7pr",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy/profile",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy?tabMenu=recommendations",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy/recommendations/instructions",
+                  "steps": []
               }
             ]
