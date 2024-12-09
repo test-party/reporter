@@ -1,7 +1,7 @@
-name: Arena Club's Accessibility Reporter
+name: Test the Reporter
 on:
   schedule:
-    - cron: '0 0 1 1 * */2'
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 jobs:
@@ -47,34 +47,6 @@ jobs:
               },
               {
                   "url": "https://arenaclub.com/marketplace?tab=all&sortBy=featured&page=1&query=",
-                  "steps": []
-              },
-              {
-                  "url": "https://arenaclub.com/auction/win-feed",
-                  "steps": []
-              },
-              {
-                  "url": "https://arenaclub.com/showrooms",
-                  "steps": []
-              },
-              {
-                  "url": "https://arenaclub.com/showrooms/derekjeter49245/collection",
-                  "steps": []
-              },
-              {
-                  "url": "https://arenaclub.com/showrooms/derekjeter49245/list",
-                  "steps": []
-              },
-              {
-                  "url": "https://arenaclub.com/showrooms/derekjeter/collection/a17cf944-482d-4fc3-ae4c-8ac631621b41",
-                  "steps": []
-              },
-              {
-                  "url": "https://arenaclub.com/cards/football-2014-topps-chrome-davante-adams-8AC002253413",
-                  "steps": []
-              },
-              {
-                  "url": "https://arenaclub.com/offers/71304373-2282-4c40-8e0a-163fef2d69ac/edit",
                   "steps": []
               }
             ]
