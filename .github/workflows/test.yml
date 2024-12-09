@@ -21,9 +21,9 @@ jobs:
                   "steps": [
                     {
                       "type": "button",
-                      "selector": "button",
+                      "selector": "span",
                       "text": "Log in",
-                       "scanAfterAction": false
+                      "scanAfterAction": false
                     },
                     {
                       "type": "input",
