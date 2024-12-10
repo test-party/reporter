@@ -27,14 +27,20 @@ jobs:
                     },
                     {
                       "type": "input",
-                      "inputType": "email",
+                      "selector": {
+                        "type": "type",
+                        "inputType": "email"
+                      },
                       "value": "jason@testparty.ai",
                       "scanAfterAction": false
                     },
                     {
                       "type": "input",
-                      "inputType": "password",
-                      "value": "password",
+                      "selector": {
+                        "type": "type",
+                        "inputType": "password"
+                      },
+                      "value": "TestParty123!",
                       "scanAfterAction": false
                     },
                     {
