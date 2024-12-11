@@ -32,5 +32,5 @@ runs:
     - ${{ inputs.repository_name }}
     - ${{ inputs.repository_id }}
     - ${{ inputs.urls }}
-    - ${{ input.setup }}
-    - ${{ input.teardown }}
+    - ${{ inputs.setup }}
+    - ${{ inputs.teardown }}
