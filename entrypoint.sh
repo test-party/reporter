@@ -18,6 +18,8 @@ check_job_status() {
 }
 
 # Prepare request body
+echo "Setup: $SETUP"
+echo "Teardown: $TEARDOWN"
 OPTIONS= "{\"setup\": $SETUP, \"teardown\": $TEARDOWN}"
 REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project\": {\"name\": \"$REPOSITORY_NAME\", \"github_id\": $REPOSITORY_ID}, \"options\": $OPTIONS}"
 
