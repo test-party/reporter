@@ -4,6 +4,8 @@ API_TOKEN="$1"
 REPOSITORY_NAME="$2"
 REPOSITORY_ID="$3"
 URLS="$4"
+SETUP="$5"
+TEARDOWN="$6"
 
 # Function to check job status
 check_job_status() {
@@ -16,7 +18,8 @@ check_job_status() {
 }
 
 # Prepare request body
-REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project\": {\"name\": \"$REPOSITORY_NAME\", \"github_id\": $REPOSITORY_ID}}"
+OPTIONS= "{\"setup\": $SETUP, \"teardown\": $TEARDOWN}"
+REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project\": {\"name\": \"$REPOSITORY_NAME\", \"github_id\": $REPOSITORY_ID}, \"options\": $OPTIONS}"
 
 # Debug: Print the request body (optional)
 echo "Request Body: $REQUEST_BODY"
@@ -93,16 +96,6 @@ Elements Affected: \(.nodes | length)
     # Total violation count across all URLs
     total_violations=$(echo $results | jq '[.violations[].results | map(.nodes | length) | add] | add')
     echo "📈 Total violations across all URLs: $total_violations"
-
-    # Group violations by impact across all URLs
-    # echo "🎯 Violations by Impact Level:"
-    # echo $results | jq -r '
-    #     [.violations[].results[].impact] | 
-    #     group_by(.) | 
-    #     map({impact: .[0], count: length}) | 
-    #     .[] | 
-    #     "[\(.impact)] Count: \(.count)"
-    # '
 else
     echo "❌ Scan failed or timed out"
     echo "Final status: $status"

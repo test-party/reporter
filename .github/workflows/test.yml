@@ -9,12 +9,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: TestParty Reporter
-        uses: test-party/reporter@v0.0.1-alpha.4
+        uses: ./
         with:
           testparty_token: ${{ secrets.TESTPARTY_TOKEN }}
           repository_name: ${{ github.repository }}
           repository_id: ${{ github.repository_id }}
           urls: |
+            [
+              {
+                  "url": "https://arenaclub.com/",
+                  "steps": []
+              },
+              {
+                  "url": "https://arenaclub.com/marketplace?tab=all&sortBy=featured&page=1&query=",
+                  "steps": []
+              }
+            ]
+          setup:
             [
               {
                   "url": "https://arenaclub.com/",
@@ -50,9 +61,19 @@ jobs:
                       "scanAfterAction": true
                     }
                   ]
-              },
+              }
+            ]
+          teardown:
+            [
               {
-                  "url": "https://arenaclub.com/marketplace?tab=all&sortBy=featured&page=1&query=",
-                  "steps": []
+                  "url": "https://arenaclub.com/",
+                  "steps": [
+                    {
+                      "type": "button",
+                      "selector": "span",
+                      "text": "Log Out",
+                      "scanAfterAction": false
+                    },
+                  ]
               }
             ]
