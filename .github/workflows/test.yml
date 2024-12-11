@@ -25,7 +25,7 @@ jobs:
                   "steps": []
               }
             ]
-          setup:
+          setup: |
             [
               {
                   "url": "https://arenaclub.com/",
@@ -63,7 +63,7 @@ jobs:
                   ]
               }
             ]
-          teardown:
+          teardown: |
             [
               {
                   "url": "https://arenaclub.com/",
