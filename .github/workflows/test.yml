@@ -74,7 +74,7 @@ jobs:
                       "selector": "span",
                       "text": "Log Out",
                       "scanAfterAction": false
-                    },
+                    }
                   ]
               }
             ]
