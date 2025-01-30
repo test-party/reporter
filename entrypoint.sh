@@ -14,7 +14,7 @@ check_job_status() {
     
     curl -s \
          -H "Content-Type: application/json" \
-         "https://beep-beep-67490882d6fc.herokuapp.com/v1/engine/axe/$task_id"
+         "https://api.testparty.ai/v1/scan/status/$task_id"
 }
 
 # Prepare request body
@@ -31,7 +31,7 @@ response=$(curl -s -H "Authorization: Bearer $API_TOKEN" \
                 -H "Content-Type: application/json" \
                 -X POST \
                 -d "$REQUEST_BODY" \
-                "https://beep-beep-67490882d6fc.herokuapp.com/v1/engine/axe")
+                "https://api.testparty.ai/v1/scan")
     
 # Extract task_id from response
 task_id=$(echo $response | jq -r '.task_id')
