@@ -18,7 +18,7 @@ jobs:
           urls: |
             [
               {
-                  "url": "https://arenaclub.com/",
+                  "url": "https://testparty.ai",
                   "steps": []
               }
             ]
