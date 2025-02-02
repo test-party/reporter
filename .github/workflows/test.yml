@@ -1,16 +1,17 @@
-name: Test the Reporter
+name: Pasito's Accessibility Reporter
 on:
   schedule:
-    - cron: '0 10 * * *'
+    # This example runs every 6 hours
+    - cron: '0 0 * * *'
+  # Optionally keep workflow_dispatch to allow manual triggers
   workflow_dispatch:
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - name: TestParty Reporter
-        uses: ./
+        uses: test-party/reporter@v0.0.1-alpha.5
         with:
           testparty_token: ${{ secrets.TESTPARTY_TOKEN }}
           repository_name: ${{ github.repository }}
@@ -18,7 +19,121 @@ jobs:
           urls: |
             [
               {
-                  "url": "https://arenaclub.com",
+                  "url": "https://accessibility-test-company-with-medical-whwuzy.pasito.ai/r/HU6ZN8IotrMS",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy/recommendations/new",
+                  "steps": [
+                      {
+                          "selector": "button",
+                          "text": "Agree and continue",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Skip",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Next",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Next",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Next",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Next",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "button",
+                          "text": "Get recommendations",
+                          "scanAfterAction": true
+                      }
+                  ]
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy?tabMenu=recommendations&mode=explore",
+                  "steps": [
+                      {
+                          "selector": "span",
+                          "text": "Hospital Indemnity",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Accident",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Critical Illness",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "HSA",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Dental",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Retirement Account",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Life",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Short-term Disability",
+                          "scanAfterAction": true
+                      },
+                      {
+                          "selector": "span",
+                          "text": "Long-term Disability",
+                          "scanAfterAction": true
+                      }
+                  ]
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy?tabMenu=benefits+package",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy?tabMenu=support",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy/support/know_7jsbogw661d7pr",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy/profile",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy?tabMenu=recommendations",
+                  "steps": []
+              },
+              {
+                  "url": "https://app.joinpasito.com/accessibility-test-company-with-medical-whwuzy/recommendations/instructions",
                   "steps": []
               }
             ]
