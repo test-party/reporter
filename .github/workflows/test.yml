@@ -1,25 +1,27 @@
-name: Pasito's Accessibility Reporter
+name: TestParty Reporter
 on:
   schedule:
-    # This example runs every 6 hours
-    - cron: '0 0 * * *'
-  # Optionally keep workflow_dispatch to allow manual triggers
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: TestParty Reporter
-        uses: test-party/reporter@v0.0.1-alpha.5
+        uses: ./
         with:
           testparty_token: ${{ secrets.TESTPARTY_TOKEN }}
           repository_name: ${{ github.repository }}
           repository_id: ${{ github.repository_id }}
           urls: |
-            [
-              {
-                  "url": "https://testparty.ai",
-                  "steps": []
-              }
-            ]
+            - url: https://testparty.ai
+              steps: []
+          setups: |
+            - scanAfterAction: false
+              type: button
+              selector: "Login"
+              text: ""
+          teardowns: |
+            []
