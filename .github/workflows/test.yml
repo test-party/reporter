@@ -1,15 +1,14 @@
-name: Pasito's Accessibility Reporter
+name: TestParty Reporter
 on:
   schedule:
-    # This example runs every 6 hours
-    - cron: '0 0 * * *'
-  # Optionally keep workflow_dispatch to allow manual triggers
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: TestParty Reporter
         uses: test-party/reporter@v0.0.1-alpha.5
         with:
@@ -17,9 +16,53 @@ jobs:
           repository_name: ${{ github.repository }}
           repository_id: ${{ github.repository_id }}
           urls: |
-            [
-              {
+              [
+                {
                   "url": "https://testparty.ai",
-                  "steps": []
-              }
-            ]
+                  "steps": [
+                    {
+                      "type": "button",
+                      "scanAfterAction": true,
+                      "selector": "email",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+          setup: |
+              [
+                {
+                  "url": "https://testparty.ai/login",
+                  "steps": [
+                    {
+                      "type": "input",
+                      "scanAfterAction": false,
+                      "value": "alexander@testparty.ai",
+                      "selector": {
+                        "type": "id",
+                        "id": "email"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "scanAfterAction": false,
+                      "selector": "push",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+          teardown: |
+              [
+                {
+                  "url": "https://testparty.ai/tear",
+                  "steps": [
+                    {
+                      "type": "button",
+                      "scanAfterAction": false,
+                      "selector": "button",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
