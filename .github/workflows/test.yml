@@ -18,51 +18,61 @@ jobs:
           urls: |
               [
                 {
-                  "url": "https://testparty.ai",
-                  "steps": [
-                    {
-                      "type": "button",
-                      "scanAfterAction": true,
-                      "selector": "email",
-                      "text": ""
-                    }
-                  ]
+                  "url": "https://qa.arist.app/ux",
+                  "steps": []
+                },
+                {
+                  "url": "https://qa.arist.app/analytics/dashboard",
+                  "steps": []
+                },
+                {
+                  "url": "https://qa.arist.app/learners",
+                  "steps": []
+                },
+                {
+                  "url": "https://qa.arist.app/cohorts",
+                  "steps": []
+                },
+                {
+                  "url": "https://qa.arist.app/courses/all",
+                  "steps": []
+                },
+                {
+                  "url": "https://qa.arist.app",
+                  "steps": []
                 }
               ]
           setup: |
               [
                 {
-                  "url": "https://testparty.ai/login",
+                  "url": "https://qa.arist.app/login",
                   "steps": [
                     {
                       "type": "input",
                       "scanAfterAction": false,
-                      "value": "alexander@testparty.ai",
+                      "value": "testparty@arist.co",
                       "selector": {
                         "type": "id",
-                        "id": "email"
+                        "id": "username"
+                      }
+                    },
+                    {
+                      "type": "input",
+                      "scanAfterAction": false,
+                      "value": "@CJiGtWH@_-$U7q",
+                      "selector": {
+                        "type": "id",
+                        "id": "password"
                       }
                     },
                     {
                       "type": "button",
                       "scanAfterAction": false,
-                      "selector": "push",
+                      "selector": "submit",
                       "text": ""
                     }
                   ]
                 }
               ]
           teardown: |
-              [
-                {
-                  "url": "https://testparty.ai/tear",
-                  "steps": [
-                    {
-                      "type": "button",
-                      "scanAfterAction": false,
-                      "selector": "button",
-                      "text": ""
-                    }
-                  ]
-                }
-              ]
+            []
