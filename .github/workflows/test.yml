@@ -71,7 +71,7 @@ jobs:
                       "selector": {
                         "type": "type",
                         "buttonType": "submit"
-                      }
+                      },
                       "text": ""
                     }
                   ]
