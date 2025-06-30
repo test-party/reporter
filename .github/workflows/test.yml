@@ -18,64 +18,11 @@ jobs:
           urls: |
               [
                 {
-                  "url": "https://qa.arist.app/ux",
-                  "steps": []
-                },
-                {
-                  "url": "https://qa.arist.app/analytics/dashboard",
-                  "steps": []
-                },
-                {
-                  "url": "https://qa.arist.app/learners",
-                  "steps": []
-                },
-                {
-                  "url": "https://qa.arist.app/cohorts",
-                  "steps": []
-                },
-                {
-                  "url": "https://qa.arist.app/courses/all",
-                  "steps": []
-                },
-                {
-                  "url": "https://qa.arist.app",
+                  "url": "https://understood.org",
                   "steps": []
                 }
               ]
           setup: |
-              [
-                {
-                  "url": "https://qa.arist.app/login",
-                  "steps": [
-                    {
-                      "type": "input",
-                      "scanAfterAction": false,
-                      "value": "testparty@arist.co",
-                      "selector": {
-                        "type": "id",
-                        "id": "username"
-                      }
-                    },
-                    {
-                      "type": "input",
-                      "scanAfterAction": false,
-                      "value": "@CJiGtWH@_-$U7q",
-                      "selector": {
-                        "type": "id",
-                        "id": "password"
-                      }
-                    },
-                    {
-                      "type": "button",
-                      "scanAfterAction": false,
-                      "selector": {
-                        "type": "type",
-                        "buttonType": "submit"
-                      },
-                      "text": ""
-                    }
-                  ]
-                }
-              ]
+            []
           teardown: |
             []
