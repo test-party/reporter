@@ -76,7 +76,7 @@ if [ "$status" == "completed" ]; then
     # Process each URL's violations
     echo $results | jq -r '.violations[] | "
 🔍 URL: \(.url)
-Found \(.results | length) violations
+Found \((.results | length) // 0) violations
 
 Detailed Violations:
 \(.results | .[] | "
@@ -88,13 +88,13 @@ Elements Affected: \(.nodes | length)
 
     # Summary of violations by URL
     echo "📊 Summary by URL:"
-    echo $results | jq -r '.violations[] | "\(.url): \(.results | map(.nodes | length) | add) violations"'
+    echo $results | jq -r '.violations[] | "\(.url): \((.results | map(.nodes | length) | add) // 0) violations"'
 
     report_uri=$(echo $results | jq -r '.reportUri')
     echo "📄 Report URL: $report_uri"
 
     # Total violation count across all URLs
-    total_violations=$(echo $results | jq '[.violations[].results | map(.nodes | length) | add] | add')
+    total_violations=$(echo $results | jq '([.violations[].results | map(.nodes | length) | add] | add) // 0')
     echo "📈 Total violations across all URLs: $total_violations"
 else
     echo "❌ Scan failed or timed out"
