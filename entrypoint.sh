@@ -24,7 +24,7 @@ REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project\": {\"
 # Debug: Print the request body (optional)
 echo "Request Body: $REQUEST_BODY"
 
-echo "📋 Initiating scan for multiple URLs"
+echo "📋 Initiating scan for URLs"
 
 # Submit the job
 response=$(curl -s -H "Authorization: Bearer $API_TOKEN" \
