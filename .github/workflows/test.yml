@@ -12,13 +12,21 @@ jobs:
       - name: TestParty Reporter
         uses: test-party/reporter@main
         with:
-          testparty_token: ${{ secrets.TESTPARTY_TOKEN }}
-          repository_name: ${{ github.repository }}
-          repository_id: ${{ github.repository_id }}
+          testparty_token: d715e77d-4d4b-4ece-b1f5-0b4cf4bb3bd0
+          repository_name: 'Aunt Flow (WordPress)''
+          repository_id: 111
           urls: |
               [
                 {
-                  "url": "https://understood.org",
+                  "url": "https://goauntflow.com",
+                  "steps": []
+                },
+                {
+                  "url": "https://goauntflow.com/donation-program/",
+                  "steps": []
+                },
+                {
+                  "url": "https://goauntflow.com/blog/case-study/lake-bluff-public-library/",
                   "steps": []
                 }
               ]
