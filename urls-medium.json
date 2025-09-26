@@ -1,0 +1,4884 @@
+{
+"urls": [
+    {
+      "url": "https://www.understood.org",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/blog/",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/accessibility",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/adhd-aha-media-kit",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/adhdiaries-submissions",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/annual-report",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/app",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-creative-alternatives-to-thank-you-notes-for-kids-with-writing-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-defusing-phrases-to-use-at-iep-meetings",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-interview-questions-for-babysitters-when-your-child-has-challenging-behaviors",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-key-procedural-safeguards-in-idea",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-modern-classic-books-for-kids-with-learning-and-thinking-differences-in-preschool-grade-2",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-movie-and-tv-characters-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-multisensory-techniques-for-teaching-math",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-myths-parents-may-hear-about-special-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-oscar-winners-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-places-to-find-free-books-for-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-playdate-tips-when-you-have-a-preschooler",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-questions-to-ask-your-childs-doctors-and-specialists-before-starting-a-treatment",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-smart-responses-for-when-the-school-cuts-or-denies-services",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-steps-for-creating-a-smooth-transition-to-high-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-steps-to-a-more-organized-college-application-process",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-steps-to-take-if-your-child-is-denied-services",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-surprising-ways-dyscalculia-impacts-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-terms-to-know-if-your-child-has-trouble-with-handwriting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-terms-to-know-if-your-child-struggles-with-math",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-things-you-need-to-know-about-your-english-language-learners",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-tips-for-staying-focused-when-learning-from-home",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-tips-to-help-get-your-child-organized",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-tips-to-help-kids-with-sensory-processing-issues-avoid-travel-meltdowns",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-tips-to-help-your-child-follow-directions",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-ways-to-encourage-your-high-schooler-to-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-ways-to-help-shy-children-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-ways-to-help-your-grade-schooler-make-friends",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-ways-to-help-your-grade-schooler-manage-stress",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-ways-to-improve-your-grade-schoolers-communication-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-ways-to-improve-your-high-schoolers-communication-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-ways-to-improve-your-middle-schoolers-communication-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/10-ways-to-relax-and-bond-with-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/11-childrens-book-authors-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/11-tips-for-working-with-your-ex-to-parent-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/11-tips-on-informal-negotiation-strategies",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/11-tips-to-help-kids-with-adhd-manage-the-holidays",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/12-movies-to-help-kids-learn-empathy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/12-signs-its-time-to-talk-with-your-childs-teacher",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/12-tips-for-preparing-kids-with-adhd-for-life-with-college-roommates",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/12-tips-to-help-kids-with-dyslexia-learn-sight-words",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/13-tips-for-getting-more-sleep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/14-musicians-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/14-ways-to-encourage-your-grade-schooler-to-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/14-ways-to-help-older-kids-build-motor-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/15-college-programs-for-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/2-minute-tutorial-getting-how-to-organize-your-childs-locker",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/2-minute-tutorial-how-to-color-code-your-childs-school-supplies",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/2-minute-tutorial-how-to-help-your-child-get-comfortable-with-a-combination-lock",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/2-minute-tutorial-how-to-teach-kids-with-motor-skills-issues-to-button-clothes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/2-minute-tutorial-how-to-teach-your-child-to-tie-shoes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/2-minute-tutorial-self-care-routines-for-kids-with-motor-skills-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/2019-goals-calendar-a-printable-planner-for-tweens-with-executive-functioning-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-helpful-articles-for-job-hunting-during-the-coronavirus-pandemic",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-key-educator-mindsets-for-supporting-kids-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-questions-to-ask-yourself-before-your-next-iep-meeting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-tiers-of-rti-support",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-tips-if-you-have-job-interview-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-ways-help-support-coworkers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-ways-i-model-resilience-for-my-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-ways-im-trying-out-universal-design-for-learning-at-home-with-my-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-ways-to-give-directions-to-help-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3-ways-to-help-child-with-developmental-delays",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/3x3-card-to-get-to-know-your-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-benefits-of-inclusive-classrooms",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-college-rejection-scenarios-how-to-help-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-fun-sports-for-kids-with-attention-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-jobs-adhd-and-a-big-transition",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-playdate-problems-and-solutions",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-reasons-to-keep-reading-to-your-grade-schooler",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-reasons-your-childs-evaluation-results-may-differ",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-skills-for-making-friends",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-social-situations-to-role-play-with-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-steps-to-choosing-books-at-your-childs-reading-level",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-tips-for-helping-your-middle-schooler-learn-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-types-of-social-cues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-ways-dyscalculia-can-affect-social-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-ways-i-stay-organized-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-ways-kids-use-organization-skills-to-learn",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-ways-kids-use-self-monitoring-to-learn",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-ways-sanity-holidays",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-ways-sleep-problems-can-affect-how-kids-learn",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-ways-to-help-your-child-build-a-support-network",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4-worries-i-had-when-my-sons-iep-ended",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/40-career-examples-of-people-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/4th-grade-angry",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-4-3-2-1-mindfulness-technique",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-adults-with-dyslexia-share-the-first-book-they-loved",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-big-bang-theory-quotes-that-make-me-a-better-parent",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-common-distractions-for-kids-with-focus-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-common-misconceptions-about-ieps",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-common-myths-about-dysgraphia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-common-myths-about-dyspraxia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-common-techniques-for-helping-struggling-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-confusing-signs-of-nonverbal-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-conversation-starters-for-discussing-an-evaluation-report-with-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-conversation-starters-for-discussing-supports-and-services-with-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-conversation-starters-for-discussing-teaching-approaches-with-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-drawings-of-my-dyslexic-superpowers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-examples-of-universal-design-for-learning-in-the-classroom",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-fun-sports-for-kids-with-motor-skills-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-great-back-to-school-books-for-kids-in-grades-1-4",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-great-grade-school-books-about-kids-who-learn-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-important-things-to-do-after-an-iep-meeting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-important-things-to-do-before-an-iep-meeting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-important-things-to-do-during-an-iep-meeting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-lessons-about-failure-from-my-life-with-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-mistakes-parents-make-when-picking-a-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-myths-about-english-language-learners-ells-and-special-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-myths-about-social-emotional-learning",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-oddly-specific-adhd-strategies-that-help-me-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-options-for-resolving-a-504-plan-dispute",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-playground-activities-that-can-help-your-childs-development",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-question-with-ann-douglas-about-parenting-through-the-storm",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-questions-for-sarah-entine-documentary-filmmaker-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-questions-for-sean-douglas-media-maker-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-questions-with-dena-blizzard-comedian-and-parent-of-a-child-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-questions-with-manju-banerjee-on-learning-and-thinking-differences-in-the-asian-american-community",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-questions-with-peter-flom-statistician-with-a-nonverbal-learning-disability",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-questions-with-the-author-of-the-spy-who-couldnt-spell",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-reasons-graphic-novels-can-help-kids-with-reading",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-simple-strategies-for-note-taking",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-smart-chores-for-hypersensitive-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-smart-chores-for-kids-who-have-trouble-completing-tasks",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-smart-chores-for-kids-with-balance-and-coordination-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-smart-chores-for-kids-with-extra-energy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-smart-chores-for-kids-with-focus-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-special-education-vips-very-important-passages",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-steps-for-recognizing-strengths-in-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-steps-to-build-an-inclusive-workplace-for-people-with-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-strategies-for-choosing-gifts-for-your-child-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-summer-routines-for-adhd-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-i-learned-about-504-plans-when-my-son-with-adhd-got-one",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-i-tell-parents-about-adhd-and-sleep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-i-want-teachers-to-know-about-my-special-education-inclusion-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-not-to-say-to-kids-with-learning-and-thinking-differences-about-going-back-to-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-not-to-say-to-your-child-about-dysgraphia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-not-to-say-to-your-child-about-dyspraxia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-your-grade-schooler-with-dyscalculia-can-say-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-your-grade-schooler-with-dyslexia-can-say-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-your-middle-schooler-with-adhd-can-say-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-things-your-middle-schooler-with-dyslexia-can-say-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-building-intersectionality-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-avoiding-homework-battles-with-your-grade-schooler",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-avoiding-homework-battles-with-your-high-schooler",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-calming-first-day-jitters-in-high-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-calming-first-day-jitters-in-middle-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-helping-your-child-handle-rejection-in-sports",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-parents-about-school-board-advocacy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-taking-a-mutual-time-out-with-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-taking-better-notes-in-class",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-for-teacher-collaboration-when-students-struggle",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-tips-to-help-grade-schoolers-with-dyscalculia-learn-multiplication",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-updates-to-diagnosing-and-treating-adhd-that-you-and-your-childs-doctor-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-video-games-to-help-tweens-and-teens-boost-reasoning-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-a-childs-issues-impact-a-relationship",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-adhd-can-affect-social-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-i-fine-tuned-our-disney-vacation-for-my-son-with-attention-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-kids-use-strategizing-skills-to-learn",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-kids-use-working-memory-to-learn",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-people-underestimate-my-son-because-of-his-motor-skills-and-speech-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-social-challenges-can-play-out-at-recess",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-to-help-tweens-and-teens-be-independent-learners",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-to-help-your-childs-tutor-and-teachers-communicate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/5-ways-to-help-your-grade-schooler-gain-self-awareness",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/504-lawsuit-504-plans",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/504-plan-terms-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/504-plans-5-common-pitfalls",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/504-plans-a-guide-for-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/504-plans-and-your-child-a-guide-for-families",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/504-plans-standard-form-template",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/504-plans-your-questions-answered",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-back-to-school-challenges-for-kids-with-impulsivity-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-books-to-help-young-kids-build-math-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-clothing-solutions-for-kids-with-sensory-processing-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-college-students-share-accommodations-that-help-them-succeed",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-common-challenges-for-new-college-students-with-social-skills-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-common-fears-for-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-common-myths-about-nonverbal-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-essential-skills-needed-for-reading-comprehension",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-fine-motor-activities-for-young-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-great-board-games-to-boost-critical-thinking-in-teens-and-tweens",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-independent-living-skills-kids-need-before-moving-away-from-home",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-low-cost-organization-tools-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-models-of-co-teaching",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-multisensory-techniques-for-teaching-handwriting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-options-for-resolving-an-iep-dispute",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-phrases-to-use-when-asking-your-professor-for-support",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-pitfalls-to-avoid-when-helping-your-child-choose-a-college",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-places-to-look-for-a-therapist-for-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-reasons-why-kids-refuse-to-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-signs-your-child-is-resilient",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-simple-steps-for-breaking-down-assignments",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-skills-kids-need-for-written-expression",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-steps-for-requesting-a-school-evaluation",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-steps-to-prepare-your-child-for-changes-to-routine-in-middle-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-steps-to-request-an-iep-meeting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-steps-to-take-if-youre-unsatisfied-with-a-private-evaluation",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-steps-you-can-take-to-keep-from-losing-your-cool",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-strategies-for-making-sure-your-childs-504-plan-is-being-followed",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-strategies-for-partnering-with-families-of-english-language-learners",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-strategies-teachers-use-to-help-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-strategies-to-teach-kids-self-regulation-in-writing",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-surprising-ways-dyslexia-affects-me-as-a-young-adult",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-surprising-ways-nonverbal-learning-disability-affects-me-as-a-young-adult",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-i-wish-id-known-sooner-about-my-sons-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-i-wish-people-knew-about-parenting-a-child-with-a-nonverbal-learning-disability",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-i-wish-people-knew-about-parenting-a-child-with-dyspraxia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-to-do-if-youre-denied-early-intervention",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-to-know-about-private-schools-and-special-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-your-grade-school-age-child-needs-to-understand-about-adhd-medication",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-your-grade-schooler-with-adhd-can-say-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-your-grade-schooler-with-dcd-can-say-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-your-middle-schooler-with-dcd-can-say-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-things-your-tween-or-teen-needs-to-understand-about-adhd-medication",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-tips-for-creating-your-childs-ifsp",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-tips-for-developing-job-skills-at-home",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-tips-for-helping-your-child-build-emotional-intelligence",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-tips-for-helping-your-grade-schooler-learn-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-tips-for-helping-your-high-schooler-learn-to-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-tips-to-help-middle-schoolers-stick-with-it",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-ways-kids-might-respond-to-an-evaluation-result",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-ways-kids-use-flexible-thinking-to-learn",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-ways-to-help-grade-schoolers-get-schoolwork-done-on-their-own",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-ways-to-help-your-child-cope-with-visual-sensitivity",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-ways-to-help-your-preschooler-connect-with-other-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-ways-to-improve-your-childs-self-esteem-with-extracurricular-activities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/6-worries-families-have-about-this-years-back-to-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-afterschool-activities-that-sneak-math-into-your-childs-day",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-board-games-to-help-younger-kids-build-math-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-books-featuring-characters-with-dyslexia-or-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-color-coding-tips-to-get-your-child-organized",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-common-behavior-triggers-at-formal-celebrations",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-common-myths-about-dyscalculia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-great-board-games-to-help-grade-schoolers-build-different-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-great-ways-to-encourage-your-grade-schoolers-writing",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ideas-for-using-rewards-and-consequences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-locker-challenges-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-modern-classic-books-for-middle-schoolers-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-myths-about-twice-exceptional-2e-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-questions-on-testing-english-language-learners-for-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-secret-fears-about-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-steps-for-a-productive-first-meeting-with-your-childs-specialist",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-steps-to-getting-a-private-evaluation-for-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-strategies-to-promote-positive-thinking",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-study-group-tips-for-kids-with-social-skills-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-study-tips-to-help-grade-schoolers-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-summer-learning-apps-and-games-for-tweens-and-teens",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-surprising-ways-dyscalculia-affects-me-as-a-young-adult",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-things-i-tell-parents-of-kids-with-adhd-or-social-skills-issues-about-fortnite",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-things-i-wish-people-knew-about-parenting-a-child-with-auditory-processing-disorder",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-things-i-wish-people-knew-about-parenting-kids-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-things-to-know-about-college-disability-services",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-building-inclusion-program",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-for-a-successful-504-meeting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-for-developing-a-good-504-plan",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-for-improving-your-relationship-with-your-childs-teacher",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-for-jump-starting-the-second-half-of-the-school-year",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-for-managing-more-than-one-childs-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-for-taking-kids-with-sensory-processing-issues-to-the-movies",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-for-talking-to-your-childs-teacher-about-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-tips-to-help-kids-understand-what-they-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ways-to-help-kids-with-slow-processing-speed-take-notes-in-class",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ways-to-help-teens-and-tweens-gain-self-awareness",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ways-to-help-your-child-cope-with-taste-sensitivity",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ways-to-help-your-students-make-friends",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ways-to-improve-vocabulary",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ways-to-prepare-kids-for-visiting-friends-and-relatives",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ways-to-respond-to-students-with-empathy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/7-ways-to-support-your-childs-reading-when-you-dont-like-to-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-childrens-books-featuring-rhyme-and-alliteration",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-common-playground-problems-and-how-to-help",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-difficult-holiday-situations-for-kids-with-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-expert-tips-on-helping-your-child-with-dysgraphia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-fun-games-that-can-improve-your-childs-executive-functioning-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-great-board-games-to-help-preschoolers-build-different-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-great-books-for-kids-who-are-starting-preschool-and-kindergarten",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-gross-motor-skills-activities-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-inclusive-ways-to-rethink-your-interview-strategy-for-people-with-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-meditation-apps-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-modern-classic-books-for-kids-with-learning-and-thinking-differences-in-grades-3-5",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-multisensory-techniques-for-teaching-reading",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-reasons-kids-might-read-slowly",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-steps-for-helping-third-and-fourth-graders-become-self-advocates",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-steps-to-getting-your-tween-or-teen-on-a-healthy-sleep-schedule",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-steps-to-kicking-off-your-childs-iep-the-right-way",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-steps-to-take-if-your-child-is-facing-disciplinary-action",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-study-tips-for-middle-schoolers-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-teen-and-tween-books-with-characters-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-things-i-wish-people-knew-about-parenting-a-child-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-for-getting-your-reluctant-partner-involved",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-for-helping-kids-with-social-skills-issues-cope-with-the-holiday-season",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-for-helping-middle-schoolers-with-learning-and-thinking-differences-cope-with-test-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-for-introducing-dyslexia-to-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-for-organizing-your-childs-backpack",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-for-talking-to-your-childs-teacher-about-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-on-answering-your-other-childs-questions",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-to-help-grade-schoolers-with-learning-and-thinking-differences-slow-down-on-homework",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-to-help-middle-schoolers-with-learning-and-thinking-differences-slow-down-on-homework",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-to-help-young-kids-develop-good-reading-habits",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tips-to-keep-your-child-from-burning-out",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-tools-for-kids-with-dysgraphia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-vacation-ideas-for-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-ways-i-manage-anxiety-from-my-dyscalculia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-ways-to-build-phonological-awareness-in-grade-schoolers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-ways-to-help-kids-with-adhd-cope-with-divorce",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-ways-to-help-teens-with-adhd-avoid-dating-trouble-spots",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-ways-to-help-your-grade-schooler-learn-social-cues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-ways-to-help-your-grade-schooler-with-adhd-stop-lying",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-ways-to-help-your-middle-schooler-connect-with-other-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-ways-to-prepare-your-child-for-standardized-tests",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-women-whove-made-life-better-for-kids-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/8-working-memory-boosters",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-benefits-of-martial-arts-for-kids-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-films-that-feature-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-free-public-library-resources-for-your-child-and-you",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-great-first-time-jobs-for-teens",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-important-terms-to-know-for-school-visits",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-new-math-problems-and-methods",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-presidents-who-made-a-difference-in-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-reasons-kids-dont-finish-their-reading-homework",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-reasons-kids-might-refuse-to-use-accommodations",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-steps-for-easing-the-transition-to-college",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-steps-to-take-if-the-iep-eligibility-meeting-doesnt-work-out",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-steps-to-take-if-the-teacher-hurts-your-childs-feelings",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-steps-to-take-if-your-request-for-evaluation-is-denied",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-terms-to-know-if-your-child-struggles-with-reading",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-tips-for-helping-grade-schoolers-with-learning-and-thinking-differences-cope-with-test-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-tips-for-talking-to-your-childs-teacher-about-dyspraxia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-tips-for-talking-to-your-childs-teacher-about-executive-function-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-tips-on-how-to-prepare-for-mediation",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-tips-to-help-military-families-navigate-the-system",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-tips-to-keep-grade-schoolers-from-checking-out-at-the-end-of-the-school-year",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-ways-to-build-phonological-awareness-in-middle-schoolers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-ways-to-build-phonological-awareness-in-pre-k-and-kindergarten",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-ways-to-help-kids-with-dyslexia-remember-and-pronounce-long-words",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-ways-to-manage-sensory-overload-at-theme-parks",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-ways-to-protect-your-child-from-online-predators",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-ways-to-show-empathy-when-your-child-is-struggling",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/9-ways-your-teen-can-learn-a-trade",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-computer-effects-artist-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-day-in-the-life-of-a-child-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-day-in-the-life-of-a-child-with-executive-functioning-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-day-in-the-life-of-a-child-with-expressive-language-disorder",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-day-in-the-life-of-a-child-with-slow-processing-speed",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-day-in-the-life-of-a-kid-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-day-in-the-life-of-a-teenager-with-dyscalculia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-day-in-the-life-of-an-employee-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-government-reminder-to-schools-dont-overlook-twice-exceptional-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-guide-to-having-hard-conversations-with-your-teacher",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-heartbreaking-choice-should-my-son-have-accommodations-for-lockdown-drills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-message-to-my-17-year-old-self-about-having-nonverbal-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-missed-deadline-becomes-chance-to-speak-up-about-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-unique-iep-solution-for-our-twice-exceptional-son",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-work-study-job-taught-me-why-i-needed-to-put-myself-out-there",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/a-young-girls-reverse-poem-about-dyslexia-goes-viral",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/academic-skills-your-child-needs-for-first-grade",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/accelerated-reader-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/accessible-work-from-home-tools",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/accommodations-for-state-standardized-tests",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/accommodations-what-they-are-and-how-they-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/accommodations-without-iep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/ada-accommodations-at-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/ada-fact-sheet",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adderall",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-affecting-relationship",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-aggression",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-alternative-treatment-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-analysis-paralysis",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-anger-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-anxiety-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-bedwetting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-behavior-therapy-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-boredom-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-caffeine",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-cheating",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-coping-with-rejection",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-creativity-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-diet-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-dyslexia-comorbidity",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-emotions-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-falling-in-love-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-feelings-of-remorse-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-hyperfocus",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-lying-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-messiness-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-oversharing-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-perfectionism",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-puberty-things-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-related-behaviors",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-seasonal-affective-disorder",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-self-esteem-what-to-say-to-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-the-brain",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-and-the-myth-of-laziness-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-anxiety-and-anger-how-theyre-linked",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-bullying-why-it-happens",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-burnout",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-caffeine",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-child-sleep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-comorbidity",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-coping-with-grief-death",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-depression",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-diagnosis-explaining-myself",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-diagnosis-woman",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-diaries-emily",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-discipline-strategies",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-driving-tips",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-drug-holiday",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-eating-disorders",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-employee-day-in-the-life",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-explained-a-28-minute-primer",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-fact-sheet",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-focus-tips",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-has-friends-but-lonely",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-hormones-women",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-hyperfocus",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-iceberg-infographic",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-in-boys",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-in-children",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-in-girls",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-in-grade-school-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-in-high-school-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-in-middle-school-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-learn-to-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-medication",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-medication-change-personality",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-medication-misuse-sharing-and-abuse",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-medication-not-working",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-medication-not-working-what-to-do",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-medication-rebound-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-medication-shortage-tips",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-medication-side-effects",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-memes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-mental-health",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-mental-load",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-misdiagnosis",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-mom-brain",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-money-management",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-mood-swings",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-older-people",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-older-women",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-or-immaturity-what-the-research-really-means-for-parents",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-or-sleep-disorder",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-outburst-how-to-respond-to-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-patch",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-periods",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-personal-boundaries-in-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-pregnancy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-ptsd-similar-symptoms",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-romantic-relationships",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-sensory-overload",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-sleep-problems",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-strategies-you-can-try-at-home",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-success-stories",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-supplements",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-symptoms-in-women",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-tax",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-teaching-strategies",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-tics",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-time-blindness",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-tip-declutter-your-cpu-desktop-screen",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-tips-from-my-college-years",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-tips-peer-pressure",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-what-not-to-say-to-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-what-youre-seeing-in-your-preschooler",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-work-job-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhd-your-questions-answered",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhdiaries-adhd-mom-rae",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhdiaries-adrina",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhdiaries-alice-wolfe",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhdiaries-danielle",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhdiaries-dee",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhdiaries-julieta",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhdiaries-kellie",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/adhdiaries-marissa",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/after-dyslexia-identification-as-an-adult-an-army-veteran-finds-his-mission",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/after-high-school-different-paths-to-success",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/after-one-iep-meeting-my-husband-and-i-were-finally-on-the-same-page",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/alaskan-family-uses-passion-for-longboard-skateboarding-to-put-the-spotlight-on-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/albert-einstein-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/all-about-careers-for-kids-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/all-about-fine-motor-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/all-about-gross-motor-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/all-about-navigating-locker-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/all-about-private-schools",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/all-about-twice-exceptional-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/alternate-assessments-what-they-are-and-how-they-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/am-i-cheating-the-shame-i-felt-using-accommodations-for-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/amanda-gorman-youth-poet-laureate-has-speech-and-auditory-processing-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/amanda-morin-wants-to-level-the-playing-field-for-parents",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/americans-with-disabilities-act-1990-anniversary",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/americans-with-disabilities-act-ada",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/an-inspirational-encounter-for-every-child-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/anger-is-exhausting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/anti-racism-resources-for-families-and-educators",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/anxiety-girls-adhd-sign",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/anxiety-in-kids-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/anxiety-mimi-started-with-math-but-became-much-more",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/anxiety-signs-young-children",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/anxiety-why-its-different-from-stress",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/anxious-vs-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/apps-to-help-teens-with-adhd-manage-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/apps-to-help-tweens-teens-with-self-control",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/apps-to-help-younger-kids-with-self-control",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-charter-schools-required-to-provide-accommodations-to-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-dyspraxia-and-dcd-the-same-thing",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-employers-required-to-provide-accommodations",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-evaluations-for-ieps-and-504-plans-different",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-ieps-different-for-english-language-learners",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-kids-with-adhd-covered-under-idea",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-my-childs-struggles-serious-enough-for-an-evaluation",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-private-schools-required-to-evaluate-for-special-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-sensory-processing-issues-a-learning-disability",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/are-there-ieps-and-504-plans-in-college",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-for-auditory-processing",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-for-math",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-for-reading",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-for-writing",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-math-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-mobile-devices",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-note-taking",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-platforms-basics",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-questions-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-reading-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/assistive-technology-writing-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/astronaut-scott-kelly-opens-up-about-his-attention-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-4-ways-brain-structure-and-chemistry-may-affect-processing-speed",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-5-factors-of-emotional-intelligence",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-7-ways-kids-with-learning-and-thinking-differences-can-get-tripped-up-by-a-math-problem",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-7-ways-to-teach-your-high-schooler-organization-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-anatomy-of-a-school-behavior-contract",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-anatomy-of-an-effective-email-to-your-childs-teacher",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-anatomy-of-an-iep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-anatomy-of-an-ifsp",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-career-paths-for-teens-who-dont-want-to-sit-at-a-desk",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-classroom-accommodations-for-dcd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-classroom-accommodations-for-dysgraphia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-classroom-accommodations-for-nonverbal-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-classroom-accommodations-for-visual-processing-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-free-and-appropriate-public-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-helping-kids-with-adhd-manage-screen-time",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-helping-your-child-understand-body-language",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-what-to-say-when-other-people-interfere-with-your-parenting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-a-glance-which-laws-do-what",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/at-the-heart-of-it-30-personal-stories-about-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/athletes-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/attention-how-its-different-from-working-memory",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/back-to-school-2020-prepare-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/back-to-school-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/back-to-school-anxiety-tips",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/back-to-school-stress-why-i-believe-self-advocacy-can-help",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/back-to-school-update-download",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/balancing-school-and-a-new-job",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/barton-reading-program-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/be-the-reason",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/behavior-contracts-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/behavior-intervention-plans-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/behavior-problems-young-child-how-to-help",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/behavior-strategy-nonverbal-signals",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/behavior-strategy-respectful-redirection",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/behavior-strategy-when-then",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/being-open-about-dyslexia-at-my-customer-service-job-is-an-advantage",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/benefits-afterschool-programs-kids-with-learning-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/benefits-of-talking-about-your-childs-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/better-than-perfect",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/beyond-ada-compliance",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/beyond-books-6-fun-things-for-kids-to-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/beyond-the-iep-reaching-out-to-my-sons-general-education-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/big-hopes-for-2016-students-with-learning-and-thinking-differences-share-their-goals",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/bilingual-child-iep-remote-learning",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/biofeedback-what-it-is-and-how-it-works",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/black-brown-families-heard-by-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/board-games-that-help-kids-build-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/body-doubling-for-adhd-what-it-is-and-how-it-works",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/books-that-explore-and-embrace-difference",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/boss-isnt-helpful-these-steps-can-help-you-find-support",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/boy-interrupting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/brain-breaks-to-help-kids-focus",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/brain-breaks-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/brain-network-study-shows-why-executive-function-improves-as-kids-get-older",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/brain-science-says-4-reasons-to-build-positive-relationships-with-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/brand-name-vs-generic-adhd-medications",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/breathing-meditation-for-adhd-tornado",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/brown-white-and-pink-noise-help-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/build-flexible-thinking-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/building-phonological-awareness-in-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/building-resilience-in-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/building-self-compassion-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/building-your-childs-life-skills-toolkit",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/bullying-fact-sheet",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/bullying-laws",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/cabin-fever-indoor-activities-for-hyperactive-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/calming-technique-for-overstimulated-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/camp-toolkit-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-a-school-make-medication-a-requirement-for-my-child-to-attend",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-a-student-have-both-an-iep-and-a-504-plan",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-a-student-with-a-504-plan-get-a-transition-plan",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-an-iep-or-504-plan-include-something-about-getting-emotional-support-at-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-dyslexia-cause-headaches-in-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-i-ask-to-have-self-advocacy-goals-included-in-my-childs-iep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-i-get-an-fmri-scan-to-show-that-my-daughter-has-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-i-refuse-to-let-the-school-evaluate-my-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-i-request-a-specific-teacher-for-my-child-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-kids-with-severe-learning-differences-get-government-assistance",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-learning-and-thinking-differences-be-cured",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-my-child-get-accommodations-for-ap-testing",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-my-child-get-an-iep-for-slow-processing-speed",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-my-child-safely-take-medications-for-multiple-problems",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-preschoolers-get-free-speech-therapy-and-other-services",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-processing-speed-ever-improve",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-the-school-give-my-child-with-an-iep-unofficial-suspensions",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-the-school-make-changes-to-my-childs-504-plan-without-telling-me",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-toddlers-have-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-train-the-brain-games-help-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/can-you-get-a-504-plan-for-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/captain-underpants-movie-may-encourage-reluctant-readers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/carolina-panthers-quarterback-cam-newton-inspires-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrating-dads-of-kids-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-quotes-learning-from-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-spotlight-anderson-cooper-no-longer-hides-his-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-spotlight-dyslexia-cant-stop-octavia-spencers-success",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-spotlight-henry-danger-actor-jace-norman-says-dyslexia-is-his-advantage",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-spotlight-how-michael-phelps-adhd-helped-him-make-olympic-history",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-spotlight-singer-songwriter-florence-welch-is-proud-of-her-dyspraxia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-spotlight-superstar-cher-triumphs-with-dyslexia-and-dyscalculia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-spotlight-why-journalist-lisa-ling-was-relieved-by-her-adhd-diagnosis",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/celebrity-spotlight-why-william-says-adhd-fuels-his-creativity",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/challenges-facing-ells-with-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/changing-between-stimulant-and-non-stimulant-medications-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/charter-school-co-founder-with-adhd-and-dyslexia-creates-the-school-he-always-wanted",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/charter-schools-and-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/chasing-gold-olympic-shot-putter-michelle-carter-opens-up-about-adhd-and-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-10-things-your-ells-school-needs-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-estate-planning-for-your-special-needs-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-finding-a-first-job-that-fits-your-teen",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-is-your-child-ready-for-a-sleepover",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-last-minute-sat-and-act-prep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-preparing-for-dispute-resolution",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-preparing-your-child-for-sleepaway-camp",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-about-colleges-with-special-programs",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-to-ask-about-the-schools-math-instruction",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-to-ask-about-the-schools-reading-instruction",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-to-ask-at-your-parent-teacher-conference",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-to-ask-potential-therapists",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-to-ask-the-school-about-early-screening",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-to-ask-when-evaluating-summer-camps",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-to-ask-when-looking-at-afterschool-programs",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-questions-to-ask-your-school-about-rti",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-saving-for-college",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-signs-of-dyslexia-at-different-ages",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-signs-your-child-is-ready-for-a-cell-phone",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-signs-your-child-may-have-too-much-homework",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-the-signs-of-learning-and-thinking-differences-in-adults",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-things-to-consider-when-hiring-a-private-evaluator",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-what-to-ask-colleges-about-assistive-technology",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-what-to-ask-the-school-about-twice-exceptional-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-what-to-consider-when-developing-annual-iep-goals",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-what-to-look-for-in-a-private-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-what-to-look-for-on-a-grade-school-visit",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-what-to-look-for-on-a-high-school-visit",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/checklist-what-to-look-for-on-a-middle-school-visit",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-acting-out",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-adhd-disciplined-school-for-things-they-cant-control",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-adhd-unrealistic-thinking",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-cant-wind-down-at-night-why-some-kids-struggle-to-go-to-sleep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-diagnosed-language-disorder-next-steps",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-doesnt-eat-holiday-meals",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-election-coping-strategies",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-embarrassed-to-talk-about-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-find-what-it-is-and-how-it-works",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-get-ready-event",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-grabs-plays-rough",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-hates-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-immature",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-keeping-score-games-sports",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-lonely-no-friends-to-play-with",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-lonely-or-likes-being-alone",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-negative-self-talk",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-nervous-to-get-evaluated-what-to-say",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-refuses-certain-clothes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-says-im-bad-advice",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-self-control-teacher-questions",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-talks-nonstop",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-trouble-counting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-trouble-focusing",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-trouble-reading",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-trouble-with-learning-math-questions-answered",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-use-phone-at-the-dinner-table",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-with-adhd-disrupts-holiday-dinners-tips",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-wont-follow-routine-schedule",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-word-retrieval-problems",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-worries-about-getting-help-at-school-what-to-say",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/child-writes-numbers-backwards",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/childrens-books-that-build-resilience",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/choose-the-right-street-to-trick-or-treat",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/choosing-a-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/chronic-absenteeism-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/cisco-ceo-john-chambers-turns-dyslexia-into-strength",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-executive-function-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-for-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-for-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-for-auditory-processing-disorder",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-for-dyscalculia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-for-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-for-language-disorders",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-for-sensory-processing-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-for-slow-processing-speed",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-to-help-students-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-accommodations-written-expression-disorder",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/classroom-posters-stem-stars-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/collaborative-team-teaching-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/college-prep-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/college-students-on-striving-and-succeeding-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/college-transition-programs-lay-pathways-for-success",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-advance-organizers-and-why-they-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-classroom-accommodations-and-modifications",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-halloween-challenges-for-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-myths-about-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-myths-about-dyslexia-reading-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-myths-about-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-reasons-schools-change-accommodations",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-thanksgiving-challenges-for-kids-with-attention-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/common-work-problems-and-causes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/communicate-with-child-without-yelling",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/communicating-issues-at-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/community-picks-13-books-for-struggling-readers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/compare-the-signs-how-to-tell-a-tantrum-from-a-meltdown",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/competence-anchors-my-advice-for-kids-who-are-stressed-about-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/concerns-about-getting-child-help-at-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/concerns-adhd-medication-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/concerta-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/conditions-covered-under-idea",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/confessions-of-a-school-a-holic",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/contracts-to-help-your-child-stick-to-the-rules-at-home",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/conversation-starters-for-discussing-behavioral-problems-with-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/conversation-starters-for-pediatricians",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/conversation-starters-to-use-with-your-childs-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/conversation-tips-kids-social-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/conversing-with-teachers-leveraging-what-weve-learned-from-the-pandemic",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/convince-management-inclusion",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/coordination-and-motor-skills-what-to-expect-at-different-ages",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/corona-versus-my-college-fall-semester",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/could-adhd-be-a-plus-in-the-right-environment",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/could-my-childs-dyslexia-be-causing-her-difficulty-with-starting-and-completing-her-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/counting-money-why-some-kids-struggle-with-it",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/counting-with-manipulatives-to-learn-addition-an-evidence-based-math",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/crucial-conversations-collaboration-with-families-and-educators",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/cyberbullying-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dav-pilkey-adhd-dyslexia-superpowers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/day-in-life-child-struggles-flexible-thinking",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/day-in-the-life-of-child-with-sensory-processing-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/daylight-savings-tips-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/daymond-john-and-mom-learning-from-experience",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dear-families-and-educators-why-parent-teacher-communication-is-more",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dear-teacher-i-have-dyslexia-explains-fifth-grader-in-self-advocacy-video",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/deciding-on-an-evaluation",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/deciding-on-homeschooling-considerations",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/decoding-what-it-is-and-how-it-works",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/denied-an-iep-my-daughter-took-different-path-for-her-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/department-education-special-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/department-of-education-closes-ieps",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/develop-child-coping-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-behavioral-pediatricians-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-coordination-disorder-dcd-fact-sheet",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-grade-schoolers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-preschoolers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-1-year-olds",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-2-year-olds",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-3-year-olds",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-4-year-olds",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-first-graders",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-fourth-and-fifth-graders",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-high-schoolers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-kindergartners",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-middle-schoolers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-for-typical-second-and-third-graders",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/developmental-milestones-from-birth-to-age-1",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dialectical-behavior-therapy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dictation-speech-to-text-technology",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/did-not-qualify-overcoming-disappointment-in-a-pandemic",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-add-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-audiobooks-and-text-to-speech",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-dysgraphia-dyspraxia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-executive-functioning-issues-and-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-inattention-and-distractibility",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-speech-disorders-and-language-based-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-speech-impairment-and-language-disorder",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-teasing-and-bullying",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-between-written-expression-and-expressive-language-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/difference-sensory-processing-challenges-and-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/different-learning-strengths-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/different-professionals-who-help-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/different-terms-you-may-hear-for-evaluations",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/different-types-of-online-classrooms",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/different-ways-kids-do-homework",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/differentiated-instruction-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/disability-disclosure-how-your-company-benefits",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/disability-federal-contractors-section-503",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/disability-inclusion-at-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/disability-inclusion-basics-free-online-training-course",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/disability-inclusion-glossary",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/disability-inclusion-initiative-paves-the-way-for-a-talent-pipeline-with-a-purpose",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/disability-inclusion-training-business-expertise",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/disability-inclusion-workplace-assessment",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/discipline-tips-kids-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/discrimination-at-work-understanding-your-childs-rights",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/distance-learning-back-to-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/distance-learning-showed-me-child-struggles",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/distance-learning-toolkit",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/distracted-in-the-drive-through",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/ditching-good-cop-bad-cop-how-to-put-up-a-united-parenting-front",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/diy-math-tools-for-grade-schoolers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/diy-sensory-friendly-halloween-costumes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/do-boys-and-girls-show-same-adhd-symptoms",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/do-boys-have-learning-and-thinking-differences-more-often-than-girls",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/do-children-outgrow-dyspraxia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/do-colleges-look-less-favorably-on-students-with-ieps-than-504-plans",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/do-i-have-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/do-ieps-cover-extracurricular-activities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/do-kids-outgrow-executive-functioning-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/do-kids-with-dyslexia-have-trouble-following-directions",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-adhd-raise-risk-mental-health-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-child-have-receptive-language-disorder",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-child-have-sensory-processing-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-dyslexia-go-away",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-it-help-for-kids-to-hear-about-their-parents-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-my-child-have-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-my-child-have-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-my-child-need-to-be-evaluated-to-get-a-504-plan",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-my-child-need-to-be-evaluated-to-qualify-for-sat-test-accommodations",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-my-childs-504-plan-have-to-be-reviewed-at-the-beginning-of-each-school-year",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/does-processing-speed-vary-from-task-to-task",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dont-let-your-pride-get-in-the-way-of-asking-for-help-in-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dos-and-donts-fidgets-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/double-trouble-adhd-moms-share-what-its-like-to-parent-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-3x3-card-to-help-teachers-get-to-know-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-a-4-week-plan-to-get-your-child-ready-to-go-back-to-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-adhd-medication-log",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-anxiety-log-to-find-out-why-your-child-gets-anxious-or-stressed",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-at-home-learning-guide",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-back-to-school-introduction-letters",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-back-to-school-worksheet-to-plan-for-a-better-year",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-backpack-checklist",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-bedtime-checklists-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-cell-phone-contracts-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-contact-list-for-who-to-call-at-your-childs-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-endrew-f-advocacy-toolkit",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-feelings-wheel",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-graphic-organizers-to-help-grade-schoolers-with-writing",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-graphic-organizers-to-help-kids-with-math",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-growth-mindset-activities-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-how-to-open-a-combination-lock",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-iep-binder-checklist",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-iep-goal-tracker",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-iep-or-504-plan-snapshot-for-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-lunchbox-notes-to-help-your-child-build-confidence",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-multisensory-reading-and-writing-tools",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-parent-child-behavior-contracts",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-parent-teacher-conference-action-plan-and-surveys",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-parent-teacher-conference-worksheet",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-sample-fidget-contract",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-sample-homework-contract",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-sample-iep-transition-plan-and-goals",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-sample-letters-for-dispute-resolution",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-sample-letters-for-requesting-evaluations-and-reports",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-sample-picture-schedules-and-visual-planners",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-sample-scripts-for-dispute-resolution",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-sample-sensory-diet",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-school-communication-log",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-self-awareness-worksheet-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-summer-reading-logs",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-tools-to-help-faith-leaders-include-kids-with-behavior-and-social-skills-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-tools-to-help-with-handwriting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/download-your-childs-accomplishment-box-starter-kit",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/due-process-rights-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-fact-sheet",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-in-children",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-in-grade-school-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-in-high-school-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-in-middle-school-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-in-preschool-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-money-management",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-self-advocacy-sentence-starters-middle-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-strategies-you-can-try-at-home",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-tutoring",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyscalculia-your-questions-answered",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-advocacy-runs-in-this-missouri-family",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-and-anxiety-in-children",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-and-creativity-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-and-music",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-depression",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-fact-sheet",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-friendly-font",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-in-adults",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-in-children",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-in-grade-school-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-in-high-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-in-middle-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-in-preschool-4-signs-you-might-see",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-laws-what-they-are-and-how-they-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-possible-causes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-signs-in-adults",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-strategies-you-can-try-at-home",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-success-stories",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-testing-results-what-they-mean-for-instruction-and-supports",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-tutoring",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-was-no-match-for-my-daughters-love-for-soccer",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexia-your-questions-answered",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/dyslexic-dad-tips-read-to-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/early-adhd-diagnosis-dont-forget-about-learning-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/early-intervention-services-who-pays-for-what",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/early-intervention-what-it-is-and-how-it-works",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/edgy-books-like-diary-of-a-wimpy-kid-can-encourage-a-reluctant-reader",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/education-terms-you-may-hear-from-lawyers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/educational-therapy-adults-learning-disabilities-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/effective-praise-guide-for-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/elected-officials-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/ell-family-teacher-partnership",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/emergency-contact-information-for-students-why-its-important",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/emotional-sunburn-what-rejection-sensitive-dysphoria-feels-like-to-me",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/empathetic-sentence-starters-for-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/employee-resource-group-best-practices",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/employee-stress-at-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/endrew-f-case-decided-supreme-court-rules-on-how-much-benefit-ieps-must-provide",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/engage-child-parent-teacher-conference",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/english-language-learners-in-special-education-partnering-with-families",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/entrepreneurs-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/entrepreneurship-a-perfect-career-path-for-kids-with-dyslexia-says-honest-tea-ceo",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/escape-from-confusion-dyslexia-art",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/essential-oils-for-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/este-momento-importa-estamos-con-la-comunidad-negra",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evaluating-kids-who-attend-private-schools-who-pays-the-bill",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evaluation-rights-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/every-student-succeeds-act-essa-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/everyday-challenges-for-young-adults-with-dyspraxia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/everyday-challenges-with-executive-function",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-behavior-strategy-brain-breaks",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-behavior-strategy-pre-correcting-and-prompting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-literacy-strategy-change-a-letter",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-literacy-strategy-elkonin-sound-boxes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-literacy-strategy-paragraph-shrinking",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-literacy-strategy-phonics-blending",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-literacy-strategy-spelling-irregular-words",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-literacy-strategy-spelling-regular-words",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-math-instruction-for-struggling-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/evidence-based-math-strategy-fraction-number-lines",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/examples-of-assistive-technology-adaptive-tools",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-function-at-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-function-challenges-and-learning-6-ways-to-help-your-grade-schooler",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-function-challenges-and-learning-6-ways-to-help-your-high-schooler",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-function-challenges-and-learning-6-ways-to-help-your-middle-schooler",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-function-disorder-symptoms",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-function-issues-and-learning-6-ways-to-help-your-child-after-high-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-functioning-challenges-myths",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-functioning-issues-and-learning-ways-to-help-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-functioning-issues-possible-causes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-functioning-issues-strategies-you-can-try-at-home",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/executive-functions-they-can-be-hot-or-cool",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/experts-weigh-in-can-my-child-change-teachers-mid-year",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/experts-weigh-in-how-can-i-get-my-young-child-less-anxious-about-starting-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/experts-weigh-in-learning-and-thinking-differences-in-the-hispanic-community",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/experts-weigh-in-what-should-i-do-when-my-child-says-im-stupid",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/explain-challenges-child-siblings",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/explaining-adhd-to-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/expressive-language-disorder-in-children",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/expressive-language-disorder-symptoms",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/extended-school-year-services-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/extended-time-vs-untimed-tests-for-my-college-bound-son",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fact-fluency-an-evidence-based-math-strategy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/facts-about-learning-disabilities-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/families-of-color-communicating-with-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/families-weigh-in-what-i-wish-teachers-knew-before-our-parent-teacher-conference",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/family-engagement-and-student-success",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faq-ada-at-work",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-bilingualism-and-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-cognitive-behavioral-therapy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-disclosing-a-disability-to-your-employer",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-evaluations-for-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-having-your-child-attend-iep-meetings",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-homework-for-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-online-schools-and-blended-learning",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-pets-for-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-reversing-letters-writing-letters-backwards-and-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-rti",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-social-skills-groups",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-solution-focused-brief-therapy",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-specialized-math-instruction-in-grade-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-standards-based-ieps",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-tax-deductions-and-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-the-ged",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-tutoring-for-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/faqs-about-vision-and-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/feeling-stress-and-anxiety-at-work-try-these-workplace-supports",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/ferpa-protecting-your-childs-records",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fidgets-for-kids-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/field-trips-sensory-processing-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/financial-aid-and-scholarships-for-students-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/find-the-common-denominator-in-your-life",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/finding-alternatives-to-required-courses-for-high-schoolers-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/finding-an-afterschool-program-with-good-homework-help",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/finding-my-strength-as-a-people-person-while-struggling-with-dyslexia-and-dysgraphia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/finding-out-if-your-child-is-eligible-for-special-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/first-dyslexia-now-adhd-facing-my-sons-second-diagnosis",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fish-oil-and-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/flexible-grouping-stem-activities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/flexible-thinking-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fluoride-and-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/focus-concentration-workplace-supports",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/for-teachers-what-to-expect-in-an-iep-meeting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/foster-care-special-education-and-learning-and-thinking-differences-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fourth-grade-math-why-its-hard-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fourth-grade-writing-difficulty",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/free-assistive-technology-tools-on-the-web",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/free-audiobooks-and-digital-text-to-speech-books-for-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/free-tutoring-resources",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/freshman-year-of-college-didnt-work-out-for-my-son-now-what",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/from-special-education-to-college-how-i-adjusted-to-big-lecture-classes",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/frustration-log-download",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fun-summer-books-for-reluctant-readers-in-grades-3-5",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fun-summer-books-for-reluctant-readers-in-grades-6-8",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/fun-summer-books-for-reluctant-readers-in-grades-9-12",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/functional-behavioral-assessment-what-it-is-and-how-it-works",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/genetic-testing-for-adhd-medications",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/get-504-plan-for-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/getting-an-iep-for-your-teen",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/getting-an-iep-for-your-very-young-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/getting-my-child-to-listen-without-yelling",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/gift-exchanges-self-control-trouble-spots-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/gifted-childrens-challenges-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/girls-stem-education",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/giving-up-normal",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/givingtuesday-at-understood",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/goals-kids-strengths-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/good-grades-bad-tests-scores-my-daughters-story",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/good-stress-vs-bad-stress-in-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/grade-school-build-self-control",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/grade-school-child-sleep-tips-schedule",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/graphic-organizers-for-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/graphic-organizers-for-reading",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/great-books-for-reluctant-readers-in-middle-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/great-books-for-reluctant-teen-readers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/great-quotes-about-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/growth-mindset",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/growth-mindset-books",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/growth-mindset-stem-activities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/halloween-sensory-challenges-tips",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/hannah-gadsby-douglas-autism",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/hardest-homework-assignment-first-tips",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/having-difficult-conversations-with-families-a-teachers-guide",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/having-dyslexia-inspired-this-teen-to-create-a-resource-to-help-others",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/heavy-work-activities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/help-adhd-teens-create-time-management-system",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/help-child-manage-chores",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/help-child-overcome-fear",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/help-child-set-personal-goals",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/help-grade-schoolers-manage-sensory-processing-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/help-in-school-without-evaluation",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/help-tweens-teens-talk-to-friends-about-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/help-young-child-handwriting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/helping-high-schoolers-find-the-right-mix-of-classes-and-activities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/helping-kids-with-learning-and-thinking-differences-cope-with-test-anxiety",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/helping-students-cope-with-change-and-disruption",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/helping-teens-deal-with-fears-about-the-future",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/helping-your-child-learn-to-read-facial-expressions",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/helping-your-child-with-social-cues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/helping-your-high-school-child-gain-self-control",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/helping-your-middle-school-child-gain-self-control",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/henry-winkler-provides-a-deeper-look-at-his-struggles-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/her-son-with-dyslexia-didnt-like-to-read-so-she-wrote-a-book-he-loved",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/hidden-value-of-disability-inclusion-5-benefits-that-can-help-company",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/high-school-challenges-learning-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/high-school-sports-star-with-dyslexia-shares-how-he-overcame-reading-struggles",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/high-school-stress",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/high-school-struggles-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/high-schoolers-cliques",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/hiring-people-with-intellectual-and-developmental-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/historical-figures-who-may-have-had-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/history-adhd-medications",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/history-of-learning-disabilities-and-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/holiday-behavior-worksheet-for-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/holiday-crafts-for-kids-with-motor-skills-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/holiday-tips-child-with-food-sensitivities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/holiday-traditions-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/homework-anxiety-what-you-need-to-know",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/homework-problems-teacher-help",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/homework-strategies",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-6-days-of-dyslexia-training-made-a-big-impact-on-a-school-district",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-a-pastors-faith-inspired-him-to-open-a-charter-school-for-kids-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-a-student-with-dyslexia-changed-my-teaching-career-and-my-life",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-a-token-board-helped-motivate-my-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-adhd-affects-kids-sleep-and-what-you-can-do",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-adhd-is-diagnosed-after-high-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-adhd-medication-works",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-attention-works",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-black-women-raised-me-to-embrace-my-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-experts-tell-if-a-non-native-english-speaker-has-a-learning-difference",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-i-build-a-relationship-between-the-therapist-and-the-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-i-find-out-if-my-child-was-misdiagnosed-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-i-get-my-childs-teachers-to-recognize-processing-speed-as-a-real-issue",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-i-help-my-child-use-abstract-thinking-in-math",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-i-help-my-child-with-adhd-make-the-adjustment-to-middle-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-i-help-my-homeschooled-child-build-social-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-i-tell-if-my-child-is-emotionally-ready-to-go-away-to-college",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-i-tell-if-my-child-understands-what-she-reads",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-can-muscle-memory-help-my-child-with-studying",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-do-i-get-my-childs-iep-going-at-the-beginning-of-the-school-year",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-do-i-monitor-my-kids-online-activities-without-spying-on-them",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-do-you-teach-a-child-with-dyslexia-to-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-doctors-test-adult-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-does-a-child-with-executive-function-challenges-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-does-optical-character-recognition-help-kids-with-reading-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-dyslexia-affects-speech",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-dyslexia-is-diagnosed-after-high-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-dyslexia-led-this-camp-counselor-to-dye-his-hair-pink",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-executive-function-challenges-can-impact-reading",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-executive-functioning-issues-impact-teens-and-young-adults-in-the-workplace",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-faith-leader-help-with-childs-challenges",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-games-can-help-kids-who-struggle-with-math",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-get-first-job-disability",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-having-mentors-can-help-kids-with-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-beat-my-social-media-habit-and-how-you-can-too",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-cope-with-imposter-syndrome-while-having-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-feel-when-i-write-a-paper",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-got-my-child-to-remember-something-visualize-it",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-got-my-son-back-breaking-the-silence-on-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-got-over-my-fear-of-ap-statistics-and-passed-with-dyscalculia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-owned-it-3-college-application-essays",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-start-a-conversation-about-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-talk-to-parents-about-sluggish-cognitive-tempo",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-tweaked-family-dinner-to-make-room-for-my-daughters-processing-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-i-use-football-sundays-to-reinforce-math-concepts",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-im-making-peace-with-my-sons-iep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-ive-worked-with-kids-who-have-self-control-issues",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-kids-can-succeed-even-when-they-fail",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-kids-develop-thinking-and-learning-skills",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-kids-use-executive-functions-to-learn",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-loneliness-can-impact-kids-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-love-made-a-language-and-learning-barrier-easier-to-overcome",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-memory-works-in-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-mom-helped-me-redefine-success-when-my-dyslexia-got-me-down",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-my-career-ambition-got-in-the-way-of-helping-my-daughter-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-my-family-created-a-sensory-friendly-halloween",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-my-iep-transition-plan-helped-me-start-college-with-confidence",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-my-son-and-i-ended-our-food-fight",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-my-son-with-dyslexia-became-an-early-self-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-my-students-strengths-have-shined",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-often-should-parents-contact-teachers",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-one-mom-became-an-advocate-for-kids-with-dyslexia",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-parents-can-take-n-o-t-e-of-signs-of-learning-and-thinking-differences",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-reading-changes-the-brain",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-rti-monitors-progress",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-schools-monitor-student-progress",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-sel-helps-you-as-a-teacher",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-self-advocacy-helped-me-fight-for-my-rights-in-college",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-sensory-processing-challenges-impact-movement",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-social-workers-help-struggling-kids",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-sports-helped-my-son-love-math",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-talk-about-child-with-partner",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-teacher-collaboration-can-break-down-barriers-between-students",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-the-documentary-2e-twice-exceptional-made-me-a-more-hopeful-parent",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-the-elbow-rule-helped-my-child-learn-about-personal-space",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-the-five-second-rule-changed-my-adhd-life",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-apply-for-sat-and-act-accommodations",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-ask-for-flexible-work-schedule",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-ask-for-workplace-accommodation",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-avoid-being-overprotective-of-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-boost-confidence-before-a-test",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-break-down-barriers-to-learning-with-udl",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-break-down-communication-barriers-between-teachers-and-families",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-build-a-parent-support-network",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-build-confidence-when-you-know-youre-different",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-build-inclusive-workplace",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-build-self-esteem",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-build-the-foundation-for-self-advocacy-in-young-children",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-choose-a-college-for-students-with-learning-disabilities",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-choose-the-right-job-for-your-teens-strengths",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-choose-video-games-and-apps-for-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-consent-to-some-parts-of-an-iep-and-not-others",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-convince-your-childs-school-not-to-reduce-services",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-create-a-parent-report",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-decode-what-teachers-say-about-your-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-defend-kids-from-bullies",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-encourage-preschooler-to-read",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-expand-access-to-technology-for-distance-learning",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-explain-a-job-loss-to-kids-who-learn-and-think-differently",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-explain-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-explain-sensory-processing-challenges-to-friends-family",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-find-a-special-education-advocate",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-find-out-if-kids-really-had-an-academic-slide",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-get-child-ready-for-fourth-grade",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-get-free-low-cost-evaluation-for-child",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-get-iep",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-get-motivated-with-adhd",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-get-ready-for-kindergarten",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-get-your-child-involved-in-sports",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-give-a-genuine-apology",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-give-praise-that-builds-your-childs-self-esteem",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-child-learn-from-failed-test",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-grade-schoolers-with-learning-thinking-differences-handle-school-cliques",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-kids-manage-overexcitement-in-different-grades",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-kids-with-behavior-and-social-skills-issues-take-part-in-religious-services",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-kids-with-tricky-math-homework",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-middle-schoolers-with-learning-and-thinking-differences-handle-school-cliques",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-preschoolers-with-learning-and-thinking-differences-handle-school-cliques",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-your-child-break-up-a-writing-assignment-into-chunks",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-your-child-build-self-control",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-your-child-get-an-apprenticeship",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-your-child-get-emotional-support-at-school",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-your-child-improve-handwriting",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-your-child-notice-voice-pitch-and-tone",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-your-child-seek-out-support-for-common-problems-in-college",
+      "steps": []
+    },
+    {
+      "url": "https://www.understood.org/en/articles/how-to-help-your-child-with-math",
+      "steps": []
+    }
+  ]
+}
