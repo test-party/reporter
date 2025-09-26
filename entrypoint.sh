@@ -64,7 +64,6 @@ while :; do
   sleep 5
   status_response=$(check_job_status "$jobId" "$API_TOKEN")
 
-  # status agora vem em .status (ex.: COMPLETED/FAILED); manter fallback
   status=$(echo "$status_response" | jq -r '.status // .state // empty' | tr '[:upper:]' '[:lower:]')
   processed=$(echo "$status_response" | jq -r '.processedChunks // 0')
   total=$(echo "$status_response" | jq -r '.totalChunks // 0')
