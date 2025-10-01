@@ -1,6 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
+# Input arguments
 API_TOKEN="$1"
 REPOSITORY_NAME="$2"
 REPOSITORY_ID="$3"
@@ -8,9 +9,11 @@ URLS="$4"
 SETUP="$5"
 TEARDOWN="$6"
 
+# API endpoints
 API_POST_PROCESS="https://2a930ibq5j.execute-api.us-east-2.amazonaws.com/Stage/process"
 API_BASE_STATUS="https://2a930ibq5j.execute-api.us-east-2.amazonaws.com/Stage/status"
 
+# Function: check the status of a job by jobId
 check_job_status() {
   local jobId="$1"
   local token="$2"
@@ -20,6 +23,7 @@ check_job_status() {
     "$API_BASE_STATUS/$jobId"
 }
 
+# Function: fetch a specific page of job results
 fetch_status_page() {
   local jobId="$1"
   local token="$2"
@@ -31,18 +35,21 @@ fetch_status_page() {
     "$API_BASE_STATUS/$jobId?page=$page&limit=$limit"
 }
 
+# Build request payload
 OPTIONS="{\"setup\": $SETUP, \"teardown\": $TEARDOWN}"
 REQUEST_BODY="{\"urls\": $URLS, \"process\": \"github_action\", \"project\": {\"name\": \"$REPOSITORY_NAME\", \"github_id\": $REPOSITORY_ID}, \"options\": $OPTIONS}"
 
 echo "Request Body: $REQUEST_BODY"
 echo "📋 Initiating scan for URLs"
 
+# Start the scan
 response=$(curl -s -H "Authorization: Bearer $API_TOKEN" \
                 -H "Content-Type: application/json" \
                 -X POST \
                 -d "$REQUEST_BODY" \
                 "$API_POST_PROCESS")
 
+# Extract jobId from response
 jobId=$(echo "$response" | jq -r '.jobId')
 if [ -z "${jobId:-}" ] || [ "$jobId" = "null" ]; then
   echo "❌ Failed to get jobId"
@@ -51,10 +58,12 @@ if [ -z "${jobId:-}" ] || [ "$jobId" = "null" ]; then
 fi
 echo "✅ Scan initiated - Task ID: $jobId"
 
+# Polling variables
 status="pending"
-max_attempts=720
+max_attempts=720  # 720 * 5s = 1 hour max wait
 attempt=0
 
+# Poll job status until completion or timeout
 while :; do
   if [ $attempt -ge $max_attempts ]; then
     echo "❌ Timeout waiting for results"
@@ -80,35 +89,35 @@ while :; do
   ((attempt++))
 done
 
-# Processar resultados finais
+# Process final results
 if [ "$status" = "completed" ]; then
   echo "✅ Scan completed successfully"
   
-  # Buscar todos os resultados de todas as páginas
+  # Fetch results from all pages
   all_violations="[]"
   page=1
   limit=100
   
-  # Extrair total_pages corretamente
+  # Extract total_pages from last status response
   total_pages=$(echo "$status_response" | jq -r '.pagination.totalPages // 1')
   
   while [ $page -le $total_pages ]; do
     echo "🔍 Fetching page $page of $total_pages..."
     
     if [ $page -eq 1 ]; then
-      # Usar a resposta que já temos para a primeira página
+      # Reuse the first response for page 1
       page_response="$status_response"
     else
-      # Buscar páginas adicionais
+      # Fetch additional pages
       page_response=$(fetch_status_page "$jobId" "$API_TOKEN" "$page" "$limit")
     fi
     
-    # Extrair violations desta página
+    # Extract violations from this page
     page_violations=$(echo "$page_response" | jq '.scanData.violations // []')
     
     echo "🔍 Page $page violations found: $(echo "$page_violations" | jq 'length')"
     
-    # Combinar violations de todas as páginas
+    # Merge violations across all pages
     all_violations=$(echo "$all_violations $page_violations" | jq -s 'add')
     
     ((page++))
@@ -116,9 +125,10 @@ if [ "$status" = "completed" ]; then
   
   echo "🔍 Total violations from all pages: $(echo "$all_violations" | jq 'length')"
   
-echo "$all_violations" | jq -r '
-  .[] as $urlData |
-  "🔍 URL: \($urlData.url)
+  # Print detailed results for each URL
+  echo "$all_violations" | jq -r '
+    .[] as $urlData |
+    "🔍 URL: \($urlData.url)
 Found \($urlData.results | map(.nodes | length) | add // 0) violations
 
 Detailed Violations:
@@ -128,19 +138,19 @@ Rule: \(.id)
 Description: \(.description)
 Elements Affected: \(.nodes | length)
 ---")"
-'
+  '
 
-  # Summary of violations by URL
+  # Print summary of violations by URL
   echo "📊 Summary by URL:"
   echo "$all_violations" | jq -r '.[] | "\(.url): \((.results | map(.nodes | length) | add) // 0) violations"'
 
-  # Report URL
+  # Print report URI if available
   report_uri=$(echo "$status_response" | jq -r '.scanData.reportUri // .reportUri // empty')
   if [ -n "$report_uri" ] && [ "$report_uri" != "null" ]; then
     echo "📄 Report URL: $report_uri"
   fi
 
-  # Total violation count across all URLs
+  # Print total violations across all URLs
   total_violations=$(echo "$all_violations" | jq '[.[] | .results | map(.nodes | length) | add] | add // 0')
   echo "📈 Total violations across all URLs: $total_violations"
   

@@ -2,7 +2,7 @@ chmod +x entrypoint.sh
 
 #!/bin/bash
 
-# Ler URLs do arquivo JSON
+# Read JSON urls
 URLS=$(cat urls.json| jq -c '.urls')
 
 ./entrypoint.sh \
