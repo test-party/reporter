@@ -9,7 +9,7 @@ set -euo pipefail
 API_TOKEN="$1"
 REPOSITORY_NAME="$2"
 REPOSITORY_ID="$3"
-URLS_JSON_FILE="$4"
+URLS="$4"
 SETUP="$5"
 TEARDOWN="$6"
 
@@ -33,47 +33,72 @@ fetch_status_page() {
 # ============================================
 # Validate URLs file
 # ============================================
-
+# ============================================
+# Validate and prepare URLs
+# ============================================
 URLS_FILE="/tmp/urls_clean.json"
 
-if [ -z "${URLS_JSON_FILE:-}" ] || [ ! -f "$URLS_JSON_FILE" ]; then
-  echo "❌ URLs file not found: $URLS_JSON_FILE"
-  exit 1
+if [ -z "${URLS:-}" ]; then
+    echo "❌ URLs input is required (file path or JSON string)"
+    exit 1
 fi
 
-echo "📄 Using URLs from: $URLS_JSON_FILE"
-file_size=$(stat -c%s "$URLS_JSON_FILE" 2>/dev/null || stat -f%z "$URLS_JSON_FILE" 2>/dev/null)
-file_size_kb=$((file_size / 1024))
-echo "📊 File size: ${file_size_kb} KB ($file_size bytes)"
-
-open_braces=$(grep -o '{' "$URLS_JSON_FILE" | wc -l | tr -d ' ')
-close_braces=$(grep -o '}' "$URLS_JSON_FILE" | wc -l | tr -d ' ')
-open_brackets=$(grep -o '\[' "$URLS_JSON_FILE" | wc -l | tr -d ' ')
-close_brackets=$(grep -o '\]' "$URLS_JSON_FILE" | wc -l | tr -d ' ')
-
-if [ "$open_braces" -ne "$close_braces" ] || [ "$open_brackets" -ne "$close_brackets" ]; then
-  echo "❌ Invalid JSON structure (unbalanced braces/brackets)"
-  exit 1
+# Check if URLS is a file or a JSON string
+if [ -f "$URLS" ]; then
+    # It's a file
+    echo "📄 Using URLs from file: $URLS"
+    
+    file_size=$(stat -c%s "$URLS" 2>/dev/null || stat -f%z "$URLS" 2>/dev/null)
+    file_size_kb=$((file_size / 1024))
+    echo "📊 File size: ${file_size_kb} KB ($file_size bytes)"
+    
+    open_braces=$(grep -o '{' "$URLS" | wc -l | tr -d ' ')
+    close_braces=$(grep -o '}' "$URLS" | wc -l | tr -d ' ')
+    open_brackets=$(grep -o '\[' "$URLS" | wc -l | tr -d ' ')
+    close_brackets=$(grep -o '\]' "$URLS" | wc -l | tr -d ' ')
+    
+    if [ "$open_braces" -ne "$close_braces" ] || [ "$open_brackets" -ne "$close_brackets" ]; then
+        echo "❌ Invalid JSON structure (unbalanced braces/brackets)"
+        exit 1
+    fi
+    
+    tr -d '\000' < "$URLS" | sed '1s/^\xEF\xBB\xBF//' > "$URLS_FILE"
+else
+    # It's a JSON string
+    echo "📝 Using URLs from parameter string"
+    
+    # Create a temporary JSON file with the URLs array wrapped
+    echo "$URLS" > /tmp/urls_raw.json
+    
+    # Check if the input already has the "urls" wrapper
+    if echo "$URLS" | jq -e 'has("urls")' >/dev/null 2>&1; then
+        # Already has "urls" key
+        echo "$URLS" | jq '.' > "$URLS_FILE"
+    else
+        # Wrap the array with "urls" key
+        echo "$URLS" | jq '{urls: .}' > "$URLS_FILE"
+    fi
 fi
 
-tr -d '\000' < "$URLS_JSON_FILE" | sed '1s/^\xEF\xBB\xBF//' > "$URLS_FILE"
-
+# Validate JSON syntax
 if ! jq empty "$URLS_FILE" >/dev/null 2>&1; then
-  echo "❌ JSON syntax invalid"
-  jq empty "$URLS_FILE" 2>&1
-  exit 1
+    echo "❌ JSON syntax invalid"
+    jq empty "$URLS_FILE" 2>&1
+    exit 1
 fi
 
+# Ensure "urls" key exists
 if ! jq -e 'has("urls") and (.urls | type == "array")' "$URLS_FILE" >/dev/null 2>&1; then
-  echo "❌ JSON must contain a key 'urls' as an array"
-  exit 1
+    echo "❌ JSON must contain a key 'urls' as an array"
+    exit 1
 fi
 
 url_count=$(jq '.urls | length' "$URLS_FILE")
 if [ "$url_count" -eq 0 ]; then
-  echo "❌ No URLs found"
-  exit 1
+    echo "❌ No URLs found"
+    exit 1
 fi
+
 echo "✅ Found $url_count URLs"
 
 # ============================================
