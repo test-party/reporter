@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-
+trap 'echo "❌ Error at line $LINENO: Command exited with status $?"' ERR
 # ============================================
 # Usage:
 # ./run_scan.sh <API_TOKEN> <REPOSITORY_NAME> <REPOSITORY_ID> <URLS_JSON_FILE> <SETUP_JSON> <TEARDOWN_JSON>
