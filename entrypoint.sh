@@ -128,7 +128,15 @@ while [ "$status" != "COMPLETED" ] && [ "$status" != "FAILED" ]; do
   fi
 
   sleep "${POLL_INTERVAL:-5}"
-  status_response=$(check_job_status "$jobId" "$API_TOKEN" || echo '{}')
+  set +e
+  status_response=$(check_job_status "$jobId" "$API_TOKEN")
+  curl_exit=$?
+  set -e
+
+  if [ $curl_exit -ne 0 ] || [ -z "$status_response" ]; then
+  echo "⚠️ check_job_status failed (code $curl_exit), retrying in 5s..."
+  status_response='{}'
+fi
 
   status=$(echo "$status_response" | jq -r '.status // .state // "unknown"')
   processed=$(echo "$status_response" | jq -r '.processedChunks // 0')
