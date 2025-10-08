@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-trap 'echo "❌ Error at line $LINENO: Command exited with status $?"' ERR
+# trap 'echo "❌ Error at line $LINENO: Command exited with status $?"' ERR
 # ============================================
 # Usage:
 # ./run_scan.sh <API_TOKEN> <REPOSITORY_NAME> <REPOSITORY_ID> <URLS_JSON_FILE> <SETUP_JSON> <TEARDOWN_JSON>
@@ -128,14 +128,12 @@ while [ "$status" != "COMPLETED" ] && [ "$status" != "FAILED" ]; do
   fi
   
   status_response=$(check_job_status "$jobId" "$API_TOKEN")
-  echo "📦 Raw status_response:"
-  echo "$status_response" | jq '.'
   
   status=$(echo "$status_response" | jq -r '.status // .state // "unknown"')
   processed=$(echo "$status_response" | jq -r '.processedChunks // 0')
   total=$(echo "$status_response" | jq -r '.totalChunks // 0')
 
-  echo "🔄 Status: $status | Processed: ${processed}/${total} | Attempt: $((attempt + 1))/$max_attempts"
+  echo "🔄 Status: $status | Processed: ${processed}/${total}"
   
   if [ "$status" = "COMPLETED" ] || [ "$status" = "FAILED" ]; then
     break
@@ -169,25 +167,58 @@ if [ "$status" = "COMPLETED" ]; then
   done
 
   echo "--------------------------------------------"
-  echo "📊 Violations summary:"
+  echo "📊 Processing detailed results..."
+  echo "--------------------------------------------"
+
+  # Detailed violations per URL
+  echo "$all_violations" | jq -r '
+    .[] | "
+🔍 URL: \(.url)
+Found \((.results | map(.nodes | length) | add) // 0) violations
+
+Detailed Violations:
+\(.results[] |
+  "Impact: \(.impact)
+Rule: \(.id)
+Description: \(.description)
+Elements Affected: \(.nodes | length)
+---")"
+  '
+
+  # Summary per URL
+  echo "--------------------------------------------"
+  echo "📊 Summary by URL:"
+  echo "--------------------------------------------"
   echo "$all_violations" | jq -r '.[] | "\(.url): \((.results | map(.nodes | length) | add) // 0) violations"'
 
+  # Report URL
   report_uri=$(echo "$status_response" | jq -r '.scanData.reportUri // .reportUri // empty')
   if [ -n "$report_uri" ] && [ "$report_uri" != "null" ]; then
+    echo "--------------------------------------------"
     echo "📄 Full Report: $report_uri"
   fi
 
+  # Total violations
   total_violations=$(echo "$all_violations" | jq '[.[] | .results | map(.nodes | length) | add] | add // 0')
-  echo "📈 Total violations: $total_violations"
+  echo "--------------------------------------------"
+  echo "📈 Total violations across all URLs: $total_violations"
+  echo "--------------------------------------------"
 
+  # Exit with error if violations found
   if [ "$total_violations" -gt 0 ]; then
     echo "❌ Accessibility violations detected!"
     exit 0
   else
-    echo "✅ No violations found!"
+    echo "✅ No accessibility violations found!"
     exit 0
   fi
+
 else
   echo "❌ Scan failed or timed out"
+  echo "Final status: $status"
+  msg=$(echo "$status_response" | jq -r '.message // .msg // empty' 2>/dev/null || echo "")
+  if [ -n "$msg" ]; then
+    echo "Message: $msg"
+  fi
   exit 1
 fi
