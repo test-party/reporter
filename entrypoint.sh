@@ -160,7 +160,7 @@ if [ "$status" = "COMPLETED" ]; then
       break
     fi
 
-    all_violations=$(jq -s 'add' <(echo "$all_violations") <(echo "$page_violations"))
+    all_violations=$(echo "$all_violations" "$page_violations" | jq -s 'add')
     ((page++))
   done
 
