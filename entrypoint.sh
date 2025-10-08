@@ -130,6 +130,7 @@ while [ "$status" != "COMPLETED" ] && [ "$status" != "FAILED" ]; do
   status_response=$(check_job_status "$jobId" "$API_TOKEN")
   echo "📦 Raw status_response:"
   echo "$status_response" | jq '.'
+  sleep "${POLL_INTERVAL:-5}"
   
   status=$(echo "$status_response" | jq -r '.status // .state // "unknown"')
   processed=$(echo "$status_response" | jq -r '.processedChunks // 0')
