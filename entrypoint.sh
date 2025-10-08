@@ -118,7 +118,7 @@ echo "✅ Scan initiated - Task ID: $jobId"
 # ============================================
 
 max_attempts="${MAX_ATTEMPTS:-720}"
-attempt=0
+attempt=1
 status="PENDING"
 
 while [ "$status" != "COMPLETED" ] && [ "$status" != "FAILED" ]; do
