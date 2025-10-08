@@ -93,9 +93,6 @@ PAYLOAD=$(jq -n \
   }'
 )
 
-echo "📋 Payload:"
-echo "$PAYLOAD" | jq '.'
-
 # ============================================
 # Launch scan via multipart/form-data
 # ============================================
