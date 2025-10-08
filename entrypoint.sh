@@ -124,7 +124,7 @@ max_attempts="${MAX_ATTEMPTS:-720}"
 attempt=0
 status="PENDING"
 
-while [ "$status" != "completed" ] && [ "$status" != "failed" ]; do
+while [ "$status" != "COMPLETED" ] && [ "$status" != "FAILED" ]; do
   if [ "$attempt" -ge "$max_attempts" ]; then
     echo "❌ Timeout waiting for results"
     exit 1
@@ -145,7 +145,7 @@ done
 # Fetch and print results
 # ============================================
 
-if [ "$status" = "completed" ]; then
+if [ "$status" = "COMPLETED" ]; then
   echo "✅ Scan completed successfully"
   all_violations="[]"
   page=1
