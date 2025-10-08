@@ -15,7 +15,13 @@ jobs:
           testparty_token: ${{ secrets.TESTPARTY_TOKEN }}
           repository_name: ${{ github.repository }}
           repository_id: ${{ github.repository_id }}
-          urls_json_file: ".github/workflows/urls-nano.json"
+          urls: |
+            [
+              {
+                "url": "https://www.understood.org/en/articles/6-things-to-know-about-private-schools-and-special-education",
+                "steps": []
+              }
+            ]
           setup: |
             []
           teardown: |
