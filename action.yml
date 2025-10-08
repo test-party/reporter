@@ -10,8 +10,8 @@ inputs:
   repository_id:
     description: 'ID of the repository'
     required: true
-  urls:
-    description: 'JSON of urls with steps'
+  urls_json_file:
+    description: 'JSON file of urls with steps'
     required: true
   setup:
     description: 'JSON of setup steps'
@@ -31,6 +31,6 @@ runs:
     - ${{ inputs.testparty_token }}
     - ${{ inputs.repository_name }}
     - ${{ inputs.repository_id }}
-    - ${{ inputs.urls }}
+    - ${{ inputs.urls_json_file }}
     - ${{ inputs.setup }}
     - ${{ inputs.teardown }}
