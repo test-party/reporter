@@ -3,7 +3,7 @@ chmod +x entrypoint.sh
 #!/bin/bash
 
 # Read JSON urls
-URLS=$(cat urls.json| jq -c '.urls')
+URLS=$(cat urls-nano.json| jq -c '.urls')
 
 ./entrypoint.sh \
   "4c09596b-fe3d-489c-9bb6-b24cd9d6df26" \
@@ -12,3 +12,5 @@ URLS=$(cat urls.json| jq -c '.urls')
   "$URLS" \
   '[]' \
   '[]'
+
+
