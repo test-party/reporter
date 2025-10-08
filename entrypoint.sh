@@ -130,14 +130,19 @@ while [ "$status" != "COMPLETED" ] && [ "$status" != "FAILED" ]; do
   status_response=$(check_job_status "$jobId" "$API_TOKEN")
   echo "📦 Raw status_response:"
   echo "$status_response" | jq '.'
-  sleep "${POLL_INTERVAL:-5}"
   
   status=$(echo "$status_response" | jq -r '.status // .state // "unknown"')
   processed=$(echo "$status_response" | jq -r '.processedChunks // 0')
   total=$(echo "$status_response" | jq -r '.totalChunks // 0')
 
-  echo "🔄 Status: $status | Processed: ${processed}/${total}"
+  echo "🔄 Status: $status | Processed: ${processed}/${total} | Attempt: $((attempt + 1))/$max_attempts"
+  
+  if [ "$status" = "COMPLETED" ] || [ "$status" = "FAILED" ]; then
+    break
+  fi
+  
   ((attempt++))
+  sleep "${POLL_INTERVAL:-5}"
 done
 
 # ============================================
