@@ -15,6 +15,8 @@ Automatically scan your web applications for accessibility violations using our 
 
 ## 🚀 Quick Start
 
+## Create a worflow file (eg: .github/workflows/scan.yml)
+
 ### Option 1: Inline URLs (Recommended for simple scans)
 
 Perfect for scanning a few URLs without complex interactions:
@@ -119,13 +121,6 @@ jobs:
 | `testparty_token` | Your TestParty API token (store as secret) | `${{ secrets.TESTPARTY_TOKEN }}` |
 | `repository_name` | Repository name | `${{ github.repository }}` |
 | `repository_id` | Repository ID | `${{ github.repository_id }}` |
-
-### URL Configuration (Choose One)
-
-| Input | Description | When to Use |
-|-------|-------------|-------------|
-| `urls` | Inline JSON array of URLs | Simple scans, few URLs, no version control needed |
-| `urls_json_file` | Path to JSON file with URLs | Complex scans, many URLs, version control preferred |
 
 
 ### Optional Inputs
