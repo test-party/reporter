@@ -115,6 +115,8 @@ PAYLOAD=$(jq -n \
   --argjson teardown "$TEARDOWN" \
   '{
     process: $process,
+    schedule_type: $schedule_type,
+    origin_platform: $origin_platform,
     project: { name: $project_name, github_id: $project_id },
     options: { setup: $setup, teardown: $teardown }
   }'
