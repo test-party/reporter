@@ -107,12 +107,16 @@ echo "✅ Found $url_count URLs"
 
 PAYLOAD=$(jq -n \
   --arg process "github_action" \
+  --arg schedule_type "automated" \
+  --arg origin_platform "github_action" \
   --arg project_name "$REPOSITORY_NAME" \
   --arg project_id "$REPOSITORY_ID" \
   --argjson setup "$SETUP" \
   --argjson teardown "$TEARDOWN" \
   '{
     process: $process,
+    schedule_type: $schedule_type,
+    origin_platform: $origin_platform,
     project: { name: $project_name, github_id: $project_id },
     options: { setup: $setup, teardown: $teardown }
   }'
